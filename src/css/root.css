@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+@font-face {
+    font-family: 'SF Mono';
+    src: url('./web-font-kit/sf_mono-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+:root {
+    --clr-background: #141b29;
+    --clr-primary: #b3aae2;
+    --clr-primary-light: #7cafd1;
+    --clr-primary-body: #bfd1e2;
+    --clr-selection: #223555b0;
+    --clr-tag: #b3aae223;
+
+    --clr-scroll-icon: #adadad34;
+    --btn-fill: #7cafd128;
+    --ico-fill: #7cafd17c;
+    
+    --table-head-fill: #7cafd11e; --table-fill: #7cafd10a;
+    --scrollbar-fill: #00000008; --scrollbar-hover: #5a839e;
+    --navbar-fill: #11172270; --navbar-border: #bfd1e2a4;
+    --txt-primary: 'DM Sans', sans-serif;
+    --txt-secondary: 'SF Mono';
+    --txt-tertiary: 'Jetbrains Mono';
+}
