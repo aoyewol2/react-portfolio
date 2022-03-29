@@ -1,7 +1,7 @@
 import React from 'react';
 
 // image and file imports
-import thatsme from './img/thatsme.png';
+import thatsme from './assets/img/thatsme.png';
 import resume from './assets/Ashley_Oyewole_Resume_2022.pdf';
 
 // home and about me section
@@ -45,7 +45,7 @@ const home = () => {
         </ul>
         
         <div className="reveal-delay">
-          <a href="https://github.com/aoyewol2/react-app"
+          <a href="https://github.com/aoyewol2/react-portfolio"
            target="_blank"
            rel="noopener noreferrer"
            className="wip">

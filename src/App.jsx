@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 // page imports
 
@@ -14,11 +14,11 @@ import './components/animation.jsx';
 
 // css file imports
 
-import './css/App.css';
-import './css/selectors.css';
-import './css/query.css';
-import './css/keyframes.css';
-import './css/root.css';
+import './styles/App.css';
+import './styles/selectors.css';
+import './styles/query.css';
+import './styles/keyframes.css';
+import './styles/root.css';
 
 // main app
 
@@ -28,7 +28,7 @@ const App = () => {
       <Navbar />
       <Home />
       <Skills />
-      <Projects/>
+      <Projects />
       <Contact />
       <Floaters />
     </>

@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 // skills section
+
 const skills = () => {
   return (
     <div>
-        <div>
+      <div>
         <h2 className='reveal'>Skills</h2>
       </div>
       <div className="table reveal">

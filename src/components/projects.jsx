@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 // image and file imports
-import weathercalculator from './img/weather_calculator.png'
-import westernu from './img/westernu.png'
-import intelliview from './img/intelliview.png'
+import weathercalculator from './assets/img/weather_calculator.png'
+import westernu from './assets/img/westernu.png'
+import intelliview from './assets/img/intelliview.png'
 
 // projects section
 const projects = () => {

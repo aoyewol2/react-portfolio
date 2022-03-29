@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100" height="auto" src="src/components/assets/logo.png" alt="Logo" style='border-radius:7px;'/>
+  <img width="100" height="auto" src="src/components/assets/img/logo.png" alt="Logo" style='border-radius:7px;'/>
 </p>
 
 <h1 align="center">
@@ -11,7 +11,7 @@
 <a href="https://aoyewole.netlify.app/">Launch site</a>
 </p>
 <p align="center">
-  <img width="1000" height="auto" src="src/components/assets/preview.png" alt="Preview" style="border-radius:8px"/>
+  <img width="1000" height="auto" src="src/components/assets/img/preview.png" alt="Preview" style="border-radius:8px"/>
 </p>
 
 ## Setup

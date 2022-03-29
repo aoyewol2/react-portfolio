@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 // navbar section -- fixed on page
 const navbar = () => {
