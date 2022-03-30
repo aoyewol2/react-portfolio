@@ -15,20 +15,25 @@
 </p>
 
 ## Setup
+1. Install Netlify CLI
 
-1. Install dependencies
+   ```sh
+   npm install netlify-cli -g
+   ```
+   
+3. Install dependencies
 
    ```sh
    npm install
    ```
 
-2. Start the development server
+3. Start the development server
 
    ```sh
    npm start
    ```
 
-## Build and run for production
+## Build and run for production using Netlify
 
 1. Generate a full static production build
 
@@ -38,7 +43,7 @@
 2. Preview the site as it will appear once deployed
 
    ```sh
-   npm run serve
+   netlify deploy
    ```
 
 ## Colour palette
