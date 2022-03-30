@@ -35,7 +35,7 @@ const projects = () => {
         <h3>02. Learn About Western University</h3>
         <b>2022</b><b>Technical</b><b>Web dev</b>
         <p>A web development assignment developed for CS1033 utilizing HTML, CSS and JavaScript! The site has a responsive and dynamic design which showcases Western University's campus, residences and history.</p> 
-        <span>School project <a target="_blank" rel="noopener noreferrer" href="https://aoyewol2.github.io/Learn-About-WesternU/">(Try it out)</a></span>
+        <span>School project <a target="_blank" rel="noopener noreferrer" href="https://aoyewol2.github.io/learn-about-westernu/">(Try it out)</a></span>
       </div>
     </div>
 
