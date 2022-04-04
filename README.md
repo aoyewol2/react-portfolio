@@ -8,6 +8,10 @@
 
 <p align="center">v2.0 of my personal website built with React.js and hosted with Netlify</p>
 <p align="center">
+  <a href="https://app.netlify.com/sites/aoyewole/deploys">
+      <img src="https://api.netlify.com/api/v1/badges/55bb3e84-e7e0-4cc1-b913-045c9365d754/deploy-status" alt="Netlify Status" />
+</p>
+<p align="center">
 <a href="https://aoyewole.netlify.app/">Launch site</a>
 </p>
 <p align="center">
