@@ -25,6 +25,10 @@
     span {
         display:none;
     }
+    body {
+        display: grid; place-items: center
+    }
+    
 }
 
 @media screen and (max-width: 1160px) {
@@ -64,8 +68,7 @@
 
 @media screen and (min-width: 801px) {
     .container {
-        display: flex; align-items: left;
-        justify-content: center
+        display: flex;
       }
 
       .image {
@@ -85,4 +88,28 @@
 
 @media screen and (max-width: 700px) {
      i.arrow { display: none; }
+    
+     .navbar {
+        text-align: left;
+        transform: translateX(30px);
+    }
+
+    .projects {
+        transform: translateX(-115px);
+    }
+    .contact, .footer {
+        max-width: 350px;
+        transform: translateX(-40px);
+    }
+    .projects-header h2 {
+        text-align: left;
+        transform: translateX(-125px);
+    }
+    .projects-header h2::before {
+        content: "━━━ ";
+      }
+    .contact h2 {
+        text-align: center;
+    }
+    .skills { display: none }
 }

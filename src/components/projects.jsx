@@ -8,7 +8,7 @@ import intelliview from './assets/img/intelliview.png'
 // projects section
 const projects = () => {
   return (
-    <div className='reveal'>
+    <div className='reveal projects-header'>
         <h2>Projects</h2>
 
 <div className="projects">
@@ -50,7 +50,7 @@ const projects = () => {
       </div>
     </div>
   </div>
-  <span className='reveal'>View more on my <a a target="_blank" rel="noopener noreferrer" href="https://github.com/aoyewol2">Github</a>!</span>
+  <span className='reveal github'>View more on my <a a target="_blank" rel="noopener noreferrer" href="https://github.com/aoyewol2">Github</a>!</span>
 </div>
 
     </div>

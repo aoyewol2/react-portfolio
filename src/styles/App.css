@@ -117,7 +117,7 @@ b {
     z-index: 5; user-select: none;
     top: 0; right: 0; padding: 28px;
     position: fixed; width: 100%;
-    background-color: var(--navbar-fill); backdrop-filter: blur(12px);
+    background-color: var(--navbar-fill); backdrop-filter: blur(24px);
     border-bottom: 1px solid var(--navbar-border);
 }
 
@@ -158,7 +158,7 @@ img.intro {
     padding: 50px 70px 50px 40px;
 }
 
-img:hover {
+img.intro:hover, .container img:hover {
     filter:grayscale(60%); transform: translateY(-10px);
 }
 

@@ -4,7 +4,7 @@ import React from 'react';
 
 const skills = () => {
   return (
-    <div>
+    <div className="skills">
       <div>
         <h2 className='reveal'>Skills</h2>
       </div>
@@ -40,11 +40,11 @@ const skills = () => {
               <td>Wireframing</td>
             </tr>
 
-            <tr>
+            <tr id="projects">
               <td>SQL, XML</td>
               <td>Netlify</td>
               <td>Photoshop</td>
-              <td id="projects">Prototyping</td>
+              <td>Prototyping</td>
             </tr>
           </tbody>
         </table>
