@@ -12,7 +12,14 @@ const contact = () => {
         </div>
 
       <div className="footer">
-        <span>Built by Ashley Oyewole</span>
+
+        <div>
+          <a href="https://github.com/aoyewol2/react-portfolio"
+           target="_blank"
+           rel="noopener noreferrer">
+          <span>&lt;/&gt; Built by Ashley Oyewole</span></a>
+        </div> 
+
         <span>All rights reserved</span>
       </div>
     </div>
