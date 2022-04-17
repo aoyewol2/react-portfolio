@@ -56,4 +56,4 @@
 | -------------- | ------------------------------------------------------------------ |
 | Primary        | ![#b3aae2](https://via.placeholder.com/10/b3aae2?text=+) `#b3aae2` |
 | Secondary      | ![#7cafd1](https://via.placeholder.com/10/7cafd1?text=+) `#7cafd1` |
-| Background     | ![#141b29](https://via.placeholder.com/10/141b29?text=+) `#141b29` |
+| Background     | ![#121824](https://via.placeholder.com/10/121824?text=+) `#121824` |

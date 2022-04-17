@@ -60,14 +60,10 @@ span {
     color: var(--clr-primary-light);
 }
 
-span.yr {
-    font-family: var(--txt-primary);
-    font-size: 15px;
-}
-
 .projects span {
     font-size: 14px;
 }
+.image {margin-top: 10px;}
 
 .footer span {
     font-family: var(--txt-primary); font-size: 13px;
@@ -194,11 +190,11 @@ button.intro:hover {
 }
 
 .content-table tbody {
-    color: var(--clr-primary-body);
+    color: var(--clr-primary-body); user-select: none;
 }
 
 .content-table th {
-    padding: 10px;
+    padding: 10px; user-select: none;
 }
 
 .content-table td {
@@ -246,12 +242,12 @@ ul.interests {
     column-count: 2;
     width: 450px;
     padding: 5px 0 5px 40px;
-    list-style: square;
+    list-style: none;
 }
 
-li {
-    padding: 5px;
-}
+li::before {content: '▹ '; font-size: 16px; color: var(--clr-primary-light); opacity: 0.6}
+
+li { padding: 5px; }
 
 .version {
     position: fixed;
@@ -259,9 +255,7 @@ li {
     padding: 20px;
     opacity: 0.35;
 }
-.version span {
-    font-size:10px;
-}
+.version span { font-size:10px;}
 
 .projects {
     text-align: center;
@@ -269,9 +263,8 @@ li {
     margin-bottom: 50px;
 }
 
-.projects p {
-    margin-top: 25px;
-}
-.container {
-    padding: 0px 0px 100px 0px;
-}
+.projects i { transform: translateY(2px); font-size: 16px }
+
+.projects p { margin-top: 25px;}
+
+.container { padding: 0px 0px 100px 0px; }

@@ -37,19 +37,19 @@
     }
   }
 
-  .reveal{
-    position: relative;
-    transform: translateY(100px);
-    opacity: 0;
-    transition: 0.7s all ease;
-  }
-  .reveal.active{
-    transform: translateY(0);
-    opacity: 1;
-  }
+.reveal{
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 0.7s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
 
-  .reveal-text {
-    animation: fadein 0.7s;
+.reveal-text {
+  animation: fadein 0.7s;
 }
 
 .reveal-delay {
@@ -61,12 +61,10 @@
 .reveal-opacity {
   animation: opacity 1s;
   animation-timing-function: ease-in-out;
-
 }
 
 .reveal-nav {
   animation: nav 1s;
   transition: 0.7s all ease;
-
 }
 

@@ -10,11 +10,11 @@
 }
 
 :root {
-    --clr-background: #141b29;
+    --clr-background: #121824;
     --clr-primary: #b3aae2;
     --clr-primary-light: #7cafd1;
     --clr-primary-body: #bfd1e2;
-    --clr-selection: #223555b0;
+    --clr-selection: #27314097;
     --clr-tag: #b3aae223;
 
     --clr-scroll-icon: #adadad34;
@@ -23,7 +23,7 @@
     
     --table-head-fill: #7cafd11e; --table-fill: #7cafd10a;
     --scrollbar-fill: #00000008; --scrollbar-hover: #5a839e;
-    --navbar-fill: #111722a5; --navbar-border: #7cafd1a3;
+    --navbar-fill: #0f141e75; --navbar-border: #7cafd1a3;
     --txt-primary: 'DM Sans', sans-serif;
     --txt-secondary: 'SF Mono';
     --txt-tertiary: 'Jetbrains Mono';

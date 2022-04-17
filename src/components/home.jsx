@@ -20,7 +20,6 @@ const home = () => {
   };
 
 
-
   let linkStyles1 = {
     animation: 'opacity 1s'
     };
@@ -38,12 +37,12 @@ const home = () => {
     };
 
 
-    let object = {
-      animation: 'MoveUpDown 1.5s linear infinite',
-      position: 'absolute',
-      left: '0',
-      bottom: '0',
-    }
+  let object = {
+    animation: 'MoveUpDown 1.5s linear infinite',
+    position: 'absolute',
+    left: '0',
+    bottom: '0',
+  }
 
   return (
 
@@ -61,7 +60,7 @@ const home = () => {
         
         <div className='main'>
           <h1 className="line-1 anim-typewriter">Ashley Oyewole</h1>
-          <p className="intro reveal-text">I'm a <span className="yr">first year</span> student at Western University in London, Ontario in Canada. I plan to pursue a Bachelors in Computer Science. I'm currently at the beginner level of programming and in the process of exploring my different interests within tech. During my free time, you can find me spending time with friends or working on new projects. Currently exploring:</p>
+          <p className="intro reveal-text">I'm a first year student at Western University in London, Ontario in Canada. I plan to pursue a Bachelors in Computer Science. I'm currently at the beginner level of programming and in the process of exploring my different interests within tech. During my free time, you can find me spending time with friends or working on new projects. Currently exploring:</p>
         </div>
 
         <ul className="interests reveal-delay">
@@ -69,14 +68,6 @@ const home = () => {
           <li>Database technologies</li>
           <li>CSS Frameworks</li>
         </ul>
-        
-        <div className="reveal-delay">
-          <a href="https://github.com/aoyewol2/react-portfolio"
-           target="_blank"
-           rel="noopener noreferrer"
-           className="wip">
-          <span>(This site is a work in progress!)</span></a>
-        </div> 
 
       </div>
 

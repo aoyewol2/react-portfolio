@@ -10,6 +10,7 @@ import Contact from './components/contact.jsx';
 import Floaters from './components/floaters.jsx';
 
 // component transitions
+
 import './components/animation.jsx';
 
 // css file imports

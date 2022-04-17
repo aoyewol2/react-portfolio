@@ -5,6 +5,7 @@ import React from 'react';
 const skills = () => {
   return (
     <div className="skills">
+    <br></br>
       <div>
         <h2 className='reveal'>Skills</h2>
       </div>
@@ -40,7 +41,7 @@ const skills = () => {
               <td>Wireframing</td>
             </tr>
 
-            <tr id="projects">
+            <tr>
               <td>SQL, XML</td>
               <td>Netlify</td>
               <td>Photoshop</td>
@@ -49,7 +50,7 @@ const skills = () => {
           </tbody>
         </table>
       </div>
-      <br></br>
+      <br id="projects"></br>
     </div>
   )
 }
