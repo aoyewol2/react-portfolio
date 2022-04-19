@@ -8,6 +8,7 @@ const skills = () => {
     <br></br>
       <div>
         <h2 className='reveal'>Skills</h2>
+        <br></br>
       </div>
       <div className="table reveal">
         <table className="content-table" border="0">
