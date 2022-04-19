@@ -6,6 +6,7 @@ import resume from './assets/Ashley_Oyewole_Resume_2022.pdf';
 
 // home and about me section
 const home = () => {
+
   // social media links
   const Github = () => {
     window.open("https://github.com/aoyewol2");
@@ -19,6 +20,7 @@ const home = () => {
     window.open("mailto:aoyewol2@uwo.ca");
   };
 
+  // link styles
 
   let linkStyles1 = {
     animation: 'opacity 1s'
@@ -36,14 +38,6 @@ const home = () => {
     animation: 'opacity 5s'
     };
 
-
-  let object = {
-    animation: 'MoveUpDown 1.5s linear infinite',
-    position: 'absolute',
-    left: '0',
-    bottom: '0',
-  }
-
   return (
 
     // main div
@@ -53,6 +47,7 @@ const home = () => {
          <img src={thatsme} alt="That's me!" title="That's me!" className="intro reveal-delay" />
       </div>
 
+      {/* introduction section */}
       <div>
         <div className="slide-effect">
           <span className="wip reveal-nav">Hi, my name is</span>
@@ -71,6 +66,7 @@ const home = () => {
 
       </div>
 
+      {/* social media section */}
       <div className="interests reveal-delay">
         <a onClick={Linkedin}><button class="intro">Let's chat!</button></a> 
       </div>
@@ -88,10 +84,6 @@ const home = () => {
         target="_blank"
         rel="noopener noreferrer" className="reveal-opacity" style={linkStyles4} >Resume</a>
 
-      </div>
-
-      <div>
-        <i className='bx bxs-chevrons-down arrow'  style={object}></i>
       </div>
 
     </div>

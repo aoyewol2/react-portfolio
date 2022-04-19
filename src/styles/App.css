@@ -52,13 +52,6 @@ i:hover {
     cursor: pointer;
 }
 
-i.arrow {
-    color: var(--ico-fill); font-size: 30px;
-    text-align: center;
-    margin: auto auto 0 48%; padding-top: 20px; cursor:default;
-    opacity: 25%;
-}
-
 span {
     font-family: var(--txt-tertiary); font-size: 14px;
     color: var(--clr-primary-light);
