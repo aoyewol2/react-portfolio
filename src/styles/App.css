@@ -105,7 +105,7 @@ b {
 
 .contact {
     background-color: var(--scrollbar-fill);
-    border-radius: 12px;
+    border-radius: 18px;
     justify-content: center; display: grid; align-items: center;
 
 }
