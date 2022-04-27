@@ -69,7 +69,7 @@ const home = () => {
          <img src={thatsme} alt="That's me!" title="That's me!" className="intro reveal-delay" />
       </div>
 
-      <div id='bg-repeat'>
+      <div id='bg-repeat' className='reveal-delay'>
         <img src={glow} style={Glow}></img>
       </div>
 
