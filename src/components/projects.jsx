@@ -11,8 +11,10 @@ const projects = () => {
   return (
     <div className='reveal projects-header'>
         <h2>Projects I've Built</h2>
+        <p className='tag reveal'>A few of my most recent personal, school and hackathon projects.</p>
+        <br></br>
 
-<div className="projects">
+  <div className="projects">
 
   <div>
     <div className="container reveal">
@@ -21,7 +23,7 @@ const projects = () => {
       <div className='text'>
         <h3>01. Weather Calculator</h3>
         <b>Python</b><b>Terminal based</b>
-        <p>Made with Python, Weather Calculator is a program that computes the windchill and humidex based on temperature and dewpoint data. The program returns comfort rating and exposure risk depending on the weather. Uses iteration loops, conditional statements and Boolean logic.</p>
+        <p>Made with Python, Weather Calculator is a program that computes the windchill and humidex based on temperature and dewpoint data. The program returns comfort rating and exposure risk depending on the weather. Uses iteration loops and conditional statements.</p>
         <span>Command line program 
 
 
@@ -38,11 +40,11 @@ const projects = () => {
       <div className='text'>
         <h3>02. PostWize</h3>
         <b>Bootstrap</b><b>Netlify</b>
-        <p>PostWize is designed to streamline the job application process by storing all your career resources in one site! Users can see their pending applications on job sites, chat and schedule meetings with recruiters, and track important dates and deadlines with a personalized calendar.</p> 
+        <p>PostWize is designed to streamline the job application process by storing all your career resources in one site! Users can see their pending applications on job sites, chat and schedule meetings with recruiters, and track important dates with a personalized calendar.</p> 
         <span>🏆 Best Web Development Track 
           <a class='external' target="_blank" rel="noopener noreferrer" href="https://github.com/aoyewol2/PostWize"><i class='bx bxl-github'></i></a>
 
-          <a target="_blank" rel="noopener noreferrer" href="https://devpost.com/software/postwize"><i class='bx bx-link-external'></i></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://post-wize.netlify.app"><i class='bx bx-link-external'></i></a>
         </span>
       </div>
     </div>
@@ -75,7 +77,7 @@ const projects = () => {
     </div>
   </div>
 
-  <span className='reveal github'><a a target="_blank" rel="noopener noreferrer" href="https://github.com/aoyewol2">View more</a></span>
+  <span className='reveal github'>See more projects on my <a a target="_blank" rel="noopener noreferrer" href="https://github.com/aoyewol2">GitHub</a></span>
 
 </div>
 

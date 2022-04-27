@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from "styled-components";
 
 // page imports
 
@@ -11,7 +12,8 @@ import Floaters from './components/floaters.jsx';
 
 // component transitions
 
-import './components/animation.jsx';
+import './components/animations/animation.jsx';
+import './components/animations/scrolltotop.jsx'
 
 // css file imports
 

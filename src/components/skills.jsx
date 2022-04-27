@@ -1,4 +1,5 @@
 import React from 'react';
+import skills2 from './assets/img/skills.png';
 
 // skills section
 
@@ -8,49 +9,22 @@ const skills = () => {
     <br></br>
       <div>
         <h2 className='reveal'>Skills</h2>
-        <br></br>
+        <p className='tag reveal'>The skills, tools and technologies I use to design and develop my projects.</p>
+        <br></br><br></br><br></br>
       </div>
-      <div className="table reveal">
-        <table className="content-table" border="0">
-          <thead>
-            <tr>
-              <th>Languages</th>
-              <th>Tools</th>
-              <th>Design</th>
-              <th>Capabilities</th>
-            </tr>
-          </thead>
-          
-          <tbody>
-            <tr>
-              <td>HTML/CSS</td>
-              <td>Git &amp; Github</td>
-              <td>After Effects, Premiere Pro</td>
-              <td>Database design &amp; development</td>
-            </tr>
-            <tr>
-              <td>JavaScript</td>
-              <td>Visual Studio Code</td>
-              <td>Figma</td>
-              <td>Entity-relationship modelling</td>
-            </tr>
-
-            <tr>
-              <td>Python</td>
-              <td>Microsoft Access (Database)</td>
-              <td>Adobe XD</td>
-              <td>Wireframing</td>
-            </tr>
-
-            <tr>
-              <td>SQL, XML</td>
-              <td>Netlify</td>
-              <td>Photoshop</td>
-              <td>Prototyping</td>
-            </tr>
-          </tbody>
-        </table>
+      <div className="reveal">
+        <img src={skills2} className='skillset'></img>
       </div>
+      {/*<ul>
+        <li>Wireframing</li>
+        <li>Prototyping</li>
+        <li>Database</li>
+        <li>UML diagrams</li>
+        <li>Web development</li>
+        <li>UI/UX design</li>
+        <li>Data science</li>
+      </ul>
+      */}
       <br id="projects"></br>
     </div>
   )

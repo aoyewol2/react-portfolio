@@ -22,10 +22,9 @@ const floaters = () => {
   return (
     <div className='reveal-opacity'>
         <div className="floaters">  
+            <button onClick={Email}><i className='bx bx-envelope'></i></button>
             <button onClick={Github}><i className='bx bxl-github'></i></button>
             <button onClick={Linkedin}><i className='bx bxl-linkedin'></i></button>
-            <button onClick={Devpost}><i className='bx bxl-dev-to'></i></button>
-            <button onClick={Email}><i className='bx bxl-gmail'></i></button>
         </div>
         
         <div className="version">

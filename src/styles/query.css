@@ -101,15 +101,7 @@
         max-width: 350px;
         transform: translateX(-40px);
     }
-    .projects-header h2 {
-        text-align: left;
-        transform: translateX(-125px);
-    }
-    .projects-header h2::before {
-        content: "━━━ ";
-      }
     .contact h2 {
         text-align: center;
     }
-    .skills { display: none }
 }

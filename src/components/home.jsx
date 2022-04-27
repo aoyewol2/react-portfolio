@@ -1,8 +1,10 @@
 import React from 'react';
+import styled from "styled-components";
 
 // image and file imports
+import glow from './assets/img/glow.png'
 import thatsme from './assets/img/thatsme.png';
-import resume from './assets/Ashley_Oyewole_Resume_2022.pdf';
+import resume from './assets/ashley_oyewole_resume_2022.pdf';
 
 // home and about me section
 const home = () => {
@@ -14,6 +16,10 @@ const home = () => {
 
   const Linkedin = () => {
     window.open("https://www.linkedin.com/in/ashleyoyewole/");
+  };
+
+  const Devpost = () => {
+    window.open("https://devpost.com/aoyewol2");
   };
 
   const Email = () => {
@@ -38,6 +44,22 @@ const home = () => {
     animation: 'opacity 5s'
     };
 
+  // bg styles
+  const Glow = {
+    zIndex: '-10',
+    position: 'fixed',
+    width: '1300px',
+    transform: 'translateY(-100px)',
+    transform: 'translateX(-50px)',
+    opacity: '0.15',
+    filter: 'blur(50px)'
+  }
+
+  const Tag = {
+    color: '#b3aae2',
+    fontWeight: 'normal'
+  }
+
   return (
 
     // main div
@@ -47,28 +69,34 @@ const home = () => {
          <img src={thatsme} alt="That's me!" title="That's me!" className="intro reveal-delay" />
       </div>
 
+      <div id='bg-repeat'>
+        <img src={glow} style={Glow}></img>
+      </div>
+
       {/* introduction section */}
       <div>
         <div className="slide-effect">
           <span className="wip reveal-nav">Hi, my name is</span>
         </div>
         
-        <div className='main'>
+        <div>
           <h1 className="line-1 anim-typewriter">Ashley Oyewole</h1>
-          <p className="intro reveal-text">I'm a first year student at Western University in London, Ontario in Canada. I plan to pursue a Bachelors in Computer Science. I'm currently at the beginner level of programming and in the process of exploring my different interests within tech. During my free time, you can find me spending time with friends or working on new projects. Currently exploring:</p>
+          <p className="intro reveal-text main">I am a <strong style={Tag}>frontend developer </strong> with a passion for UI and software design. Currently in my first year of studying Computer Science at Western University in London, Ontario. Outside of school, you can find me spending time with friends or working on new projects. Open to Summer 2022 opportunities!</p>
+          
+          <p className="intro reveal-text">A few aspects I've been exploring with recently:</p>
         </div>
 
         <ul className="interests reveal-delay">
-          <li>Full-stack development</li>
+          <li>Front end development</li>
+          <li>Wireframing and protoyping</li>
           <li>Database technologies</li>
-          <li>CSS Frameworks</li>
         </ul>
 
       </div>
 
       {/* social media section */}
       <div className="interests reveal-delay">
-        <a onClick={Linkedin}><button class="intro">Let's chat!</button></a> 
+        <a onClick={Email}><button className="intro">Let's talk</button></a> 
       </div>
 
       <div id="skills"></div>
@@ -78,7 +106,7 @@ const home = () => {
 
         <a onClick={Linkedin} className="reveal-opacity" style={linkStyles2}>LinkedIn</a>
 
-        <a onClick={Email} className="reveal-opacity" style={linkStyles3}>Email</a>
+        <a onClick={Devpost} className="reveal-opacity" style={linkStyles3}>Devpost</a>
 
         <a href={resume}
         target="_blank"

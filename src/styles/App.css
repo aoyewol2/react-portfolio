@@ -13,20 +13,19 @@ html {
 
 body {
     font-family: var(--txt-primary); background-color: var(--clr-background);
-    text-align: left; margin-top: 2%; padding: 100px; zoom: 108%;
+     margin-top: 2%; padding: 100px; zoom: 102%;
 }
 
 h1 {
-    font-family: var(--txt-secondary); font-size: 38px; font-weight: normal;
+    font-family: var(--txt-secondary); font-size: 42px; font-weight: normal;
     color: var(--clr-primary);
 }
 
 h2 {
-    user-select: none;
-    font-family: var(--txt-secondary); font-size: 28px; font-weight: normal;
+    font-family: var(--txt-primary); font-size: 32px; font-weight: bold;
     color: var(--clr-primary);
     text-align: center;
-    padding: 30px 0px 0px 0px;
+    padding: 30px 0px 0px 0px; letter-spacing: 1px;
 }
 
 h3 {
@@ -36,15 +35,24 @@ h3 {
 
 p {
     color: var(--clr-primary-body);
-    font-size: 15px;
+    font-size: 14px;
     min-width: 200px; max-width: 700px;
     line-height: 2;
+}
+
+.projects i {
+    color: var(--ico-fill-2);
 }
 
 i {
     color: var(--ico-fill);
     padding: 8px; font-size: 20px;
     transition-duration: 0.15s;
+}
+
+.floaters i {
+    margin: 13px;
+    background-color: rgba(0, 0, 0, 0.1); border-radius: 8px;
 }
 
 i:hover {
@@ -71,7 +79,7 @@ span {
 }
 
 a {  
-    color: var(--clr-primary); font-size: 14px;
+    color: var(--clr-primary); font-size: 13px;
     text-decoration: none;
 }
 
@@ -86,16 +94,17 @@ b {
     font-weight: normal; text-align: left;
     font-family: var(--txt-tertiary); color: var(--clr-primary);
     user-select: none;
-    border: 2px solid var(--clr-primary);
+    border: 1px solid var(--clr-primary);
     margin: 0px 10px 0px 0px;
-    padding: 3px 9px 3px 9px;
+    padding: 6px 11px 6px 11px;
     font-size: 12px;
     background-color: var(--clr-tag);
-    border-radius: 5px 5px 5px 0 ;
+    border-radius: 5px;
+    /*box-shadow: 2px 2px; transition-duration: 0.2s;*/
 }
 
 .contact {
-    background-color: var(--navbar-fill);
+    background-color: var(--scrollbar-fill);
     border-radius: 12px;
     justify-content: center; display: grid; align-items: center;
 
@@ -112,12 +121,12 @@ b {
     top: 0; right: 0; padding: 28px;
     position: fixed; width: 100%;
     background-color: var(--navbar-fill); backdrop-filter: blur(32px);
-    border-bottom: 1px solid var(--navbar-border);
+    /** border-bottom: 1px solid var(--navbar-border);**/
 }
 
 .navbar a {
     padding: 35px;
-    font-family: var(--txt-tertiary); font-size: 14px;
+    font-family: var(--txt-primary); font-size: 14px; color: var(--clr-primary-body);
     transition-duration: 0.3s;
 }
 
@@ -141,6 +150,9 @@ b {
     transform: translateY(-6px);
 }
 
+.skillset {width:700px; -webkit-user-drag: none; }
+.tag, .skills {margin: 0 auto; text-align: center;}
+
 .socials { padding-top: 20px; }
 
 .socials a { padding-right: 20px; }
@@ -153,7 +165,7 @@ img.intro {
 }
 
 img.intro:hover, .container img:hover {
-    filter:grayscale(60%); transform: translateY(-10px);
+    transform: translateY(-10px);
 }
 
 button {
@@ -169,14 +181,14 @@ button.intro {
     color: var(--clr-primary-body); font-family: var(--txt-secondary);
     background: #0000;
 
-    border: 1.5px solid var(--clr-primary-light);
-    border-top-right-radius: 12px; border-bottom-right-radius: 12px;
+    border: 2px solid var(--clr-primary-light);
+    border-radius: 6px;
 
     transition-duration: 0.2s; user-select: none;
 }
 
 button.intro:hover {
-    cursor: none; font-size: 80%; background-color: var(--btn-fill)
+    background-color: var(--btn-fill); cursor: pointer; border-radius: 0px; transform: translateY(-5px);
 }
 
 .content-table {
@@ -235,17 +247,22 @@ table {
 }
 
 ul.interests {
-    font-family: var(--txt-tertiary);
-    font-size: 13.5px;
+    font-family: var(--txt-primary);
+    font-size: 14px;
     column-count: 2;
-    width: 450px;
+    width: 500px;
     padding: 5px 0 5px 40px;
     list-style: none;
 }
 
-li::before {content: '▹ '; font-size: 16px; color: var(--clr-primary-light); opacity: 0.6}
+.interests li::before {content: '▹ '; font-size: 20px; color: var(--clr-primary-light); opacity: 0.6}
 
 li { padding: 5px; }
+
+
+.skills li{
+    color: var(--clr-primary); padding: 10px; border: 1px solid; margin: 15px; border-radius: 10px;
+}
 
 .version {
     position: fixed;

@@ -1,5 +1,7 @@
 import React from 'react';
-import logo from './assets/img/logov2.png'
+import logo from './assets/img/logov2.png';
+import Heart from './animations/scrolltotop.jsx';
+
 
 let logoStyles = {
   width: '100px',
@@ -17,9 +19,10 @@ let logoStyles = {
 // navbar section -- fixed on page
 const navbar = () => {
   return (
-    <div>
+    <div className='reveal-opacity'>
+      <Heart/>
       <div>
-      <a href = '#home'><img src={logo} style={logoStyles} class='logo reveal-opacity'></img></a>
+      <a href = '#home'><img src={logo} style={logoStyles} className='logo reveal-opacity'></img></a>
         
       </div>
 
