@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  aoyewole.netlify.app
+  ashleyoyewole.dev
 </h1>
 
 <p align="center">v2.0 of my personal website built with React.js and hosted with Netlify</p>
@@ -12,7 +12,7 @@
       <img src="https://api.netlify.com/api/v1/badges/55bb3e84-e7e0-4cc1-b913-045c9365d754/deploy-status" alt="Netlify Status" />
 </p>
 <p align="center">
-<a href="https://aoyewole.netlify.app/">Launch site</a>
+<a href="https://ashleyoyewole.dev/">Launch site</a>
 </p>
 <p align="center">
   <img width="1000" height="auto" src="src/components/assets/img/preview.png" alt="Preview" style="border-radius:8px"/>
