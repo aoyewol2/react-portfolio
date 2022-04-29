@@ -15,16 +15,17 @@ const skills = () => {
       <div className="reveal">
         <img src={skills2} className='skillset'></img>
       </div>
-      {/*<ul>
-        <li>Wireframing</li>
-        <li>Prototyping</li>
-        <li>Database</li>
-        <li>UML diagrams</li>
-        <li>Web development</li>
-        <li>UI/UX design</li>
-        <li>Data science</li>
+      <ul className='mobile-skills'>
+        <li className='reveal'>HTML/CSS</li>
+        <li className='reveal'>JavaScript</li>
+        <li className='reveal'>Python</li>
+        <li className='reveal'>React</li>
+        <li className='reveal'>Git, GitHub</li>
+        <li className='reveal'>Sass</li>
+        <li className='reveal'>Figma, Adobe XD</li>
+        <li className='reveal'>npm</li>
       </ul>
-      */}
+      
       <br id="projects"></br>
     </div>
   )

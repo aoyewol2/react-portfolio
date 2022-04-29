@@ -77,7 +77,7 @@ const projects = () => {
     </div>
   </div>
 
-  <span className='reveal github'>See more projects on my <a a target="_blank" rel="noopener noreferrer" href="https://github.com/aoyewol2">GitHub</a></span>
+  <span className='reveal github wip'>See more projects on my <a a target="_blank" rel="noopener noreferrer" href="https://github.com/aoyewol2">GitHub</a></span>
 
 </div>
 

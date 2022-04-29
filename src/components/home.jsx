@@ -2,7 +2,10 @@ import React from 'react';
 import styled from "styled-components";
 
 // image and file imports
-import glow from './assets/img/glow.png'
+import glow from './assets/img/glow.png';
+import glow2 from './assets/img/Glow2.svg';
+import glow3 from './assets/img/Glow3.svg';
+
 import thatsme from './assets/img/thatsme.png';
 import resume from './assets/ashley_oyewole_resume_2022.pdf';
 
@@ -63,11 +66,11 @@ const home = () => {
   return (
 
     // main div
-    <div>
+    <div className='flex'>
       <div className='top' id="home"></div>
         <div>
-         <img src={thatsme} alt="That's me!" title="That's me!" className="intro reveal-delay" />
-      </div>
+          <img src={thatsme} alt="That's me!" title="That's me!" className="intro reveal-delay" />
+        </div>
 
       <div id='bg-repeat' className='reveal-delay'>
         <img src={glow} style={Glow}></img>
@@ -81,7 +84,7 @@ const home = () => {
         
         <div>
           <h1 className="line-1 anim-typewriter">Ashley Oyewole</h1>
-          <p className="intro reveal-text main">I am a <strong style={Tag}>frontend developer </strong> with a passion for UI and software design. Currently in my first year of studying Computer Science at Western University in London, Ontario. Outside of school, you can find me spending time with friends or working on new projects. Open to Summer 2022 opportunities!</p>
+          <p className="intro reveal-text main">I am a <strong style={Tag}>Frontend Developer </strong> with a passion for UI and software design. Currently in my first year of studying Computer Science at Western University in London, Ontario. Outside of school, you can find me spending time with friends or working on new projects. Open to Summer 2022 opportunities!</p>
           
           <p className="intro reveal-text">A few aspects I've been exploring with recently:</p>
         </div>
