@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 
 // image and file imports
-import glow from './assets/img/glow.png';
+import glow from './assets/img/Glow1.svg';
 import glow2 from './assets/img/Glow2.svg';
 import glow3 from './assets/img/Glow3.svg';
 
@@ -52,10 +52,10 @@ const home = () => {
     zIndex: '-10',
     position: 'fixed',
     width: '1300px',
-    transform: 'translateY(-100px)',
+    transform: 'translateY(40px)',
     transform: 'translateX(-50px)',
-    opacity: '0.15',
-    filter: 'blur(50px)'
+    opacity: '0.175',
+    filter: 'blur(25px)'
   }
 
   const Tag = {
