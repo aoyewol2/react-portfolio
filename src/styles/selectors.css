@@ -2,7 +2,7 @@
 @import './root.css'; @import './App.css';
 
 ::-webkit-scrollbar {
-  width: 7px; height: 7px; transition-duration: 0.2s;
+  width: 8px; height: 8px; transition-duration: 0.2s;
 }
   
 ::-webkit-scrollbar-track {
@@ -10,7 +10,7 @@
 }
   
 ::-webkit-scrollbar-thumb {
-  background: var(--clr-primary-light); border-radius: 20px; 
+  background: var(--scrollbar-thumb); border-radius: 20px; 
 }
 
 ::-webkit-scrollbar-thumb:hover {

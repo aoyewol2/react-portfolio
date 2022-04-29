@@ -12,7 +12,7 @@ const Heart = () => {
         userSelect :'none',
         padding: '30px',
         color: '#8dc4e9',
-        opacity: '0.7',
+        opacity: '0.85',
 
         '&:hover': {
             color: "#b3aae2"
@@ -23,7 +23,7 @@ const Heart = () => {
     return (
         <div>     
             <a href="#home">
-                <em class='bx bx-cloud' style={HeartStyles}></em>
+                <em class='bx bx-cloud btt' style={HeartStyles}></em>
             </a>
         </div>
     )

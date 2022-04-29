@@ -20,10 +20,11 @@
     }
 }
 
-
 @media screen and (max-width: 600px) {
-    span {
-        display:none;
+    .navbar span { display: none}
+
+    .navbar {
+        text-align: center;
     }
     body {
         display: grid; place-items: center
@@ -54,19 +55,49 @@
     }
 }
 
-@media screen and (max-width: 351px) {
-    .wip {
-        display: none;
-    }
-}
-
 @media screen and (max-width: 800px) {
     .container {
         display: grid; text-align: left;
       }
+    .bx-cloud {
+        display: none;
+    }
+
+    .contact p {
+        padding: 20px;
+    }
+
+    h2 {
+        display: flexbox; text-align: left;
+    }
+
+    h2.contact {text-align: center;}
+    
+    .tag {
+        width:50%; margin: 0;text-align: left;
+    }
+
+      ul.interests {
+        column-count: 1;
+      }
+
+      .skillset{
+        display: none;
+    }
+    body {
+        display: grid; place-items: center; overflow-x:hidden;
+    }
 }
 
 @media screen and (min-width: 801px) {
+
+    .flex {
+        display: flexbox
+    }
+
+    .mobile-skills {
+        display: none;
+    }
     .container {
         display: flex;
       }

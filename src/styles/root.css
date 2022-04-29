@@ -12,7 +12,7 @@
 
 :root {
     --clr-background: #121824;
-    --clr-primary: #b3aae2;
+    --clr-primary: #bfb5f0;
     --clr-primary-light: #8dc4e9;
     --clr-primary-body: #bfd1e2;
     --clr-selection: #273140cc;
@@ -23,7 +23,7 @@
     --ico-fill: #7cafd17c; --ico-fill-2: #7cafd1cd;
     
     --table-head-fill: #7cafd11e; --table-fill: #7cafd10a;
-    --scrollbar-fill: #00000014; --scrollbar-hover: #5a839e;
+    --scrollbar-fill: #00000014; --scrollbar-thumb: #8dc4e92f; --scrollbar-hover: #7ea6c12f;
     --navbar-fill: #0f141e75; --navbar-border: #7cafd1a3;
     --txt-primary: 'Poppins', sans-serif;
     --txt-secondary: 'SF Mono';
