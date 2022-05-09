@@ -7,7 +7,7 @@ import glow2 from './assets/img/Glow2.svg';
 import glow3 from './assets/img/Glow3.svg';
 
 import thatsme from './assets/img/thatsme.png';
-import resume from './assets/ashley_oyewole_resume_2022.pdf';
+import resume from './assets/ashley_oyewole_resume.pdf';
 
 // home and about me section
 const home = () => {
@@ -54,7 +54,7 @@ const home = () => {
     width: '1300px',
     transform: 'translateY(40px)',
     transform: 'translateX(-50px)',
-    opacity: '0.175',
+    opacity: '0.19',
     filter: 'blur(25px)'
   }
 
@@ -86,13 +86,14 @@ const home = () => {
           <h1 className="line-1 anim-typewriter">Ashley Oyewole</h1>
           <p className="intro reveal-text main">I am a <strong style={Tag}>Frontend Developer </strong> with a passion for UI and software design. Currently in my first year of studying Computer Science at Western University in London, Ontario. Outside of school, you can find me spending time with friends or working on new projects. Open to Summer 2022 opportunities!</p>
           
-          <p className="intro reveal-text">A few aspects I've been exploring with recently:</p>
+          <p className="intro reveal-text">A few things I've been working on recently:</p>
         </div>
 
         <ul className="interests reveal-delay">
           <li>Front end development</li>
           <li>Wireframing and protoyping</li>
           <li>Database technologies</li>
+          <li>React.js and JavaScript</li>
         </ul>
 
       </div>
@@ -102,7 +103,7 @@ const home = () => {
         <a onClick={Email}><button className="intro">Let's talk</button></a> 
       </div>
 
-      <div id="skills"></div>
+      <div></div>
 
       <div className="socials">
         <a onClick={Github} alt="GitHub" className="reveal-opacity" style={linkStyles1} >GitHub</a>
@@ -113,10 +114,10 @@ const home = () => {
 
         <a href={resume}
         target="_blank"
-        rel="noopener noreferrer" className="reveal-opacity" style={linkStyles4} >Resume</a>
+        rel="noopener noreferrer" className="reveal-opacity" style={linkStyles4}>Resume</a>
 
       </div>
-
+      <br id="about"></br>
     </div>
   )
 }

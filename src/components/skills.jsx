@@ -1,5 +1,5 @@
 import React from 'react';
-import skills2 from './assets/img/skills.png';
+import skills2 from './assets/img/skills.svg';
 
 // skills section
 

@@ -10,9 +10,10 @@ const Heart = () => {
         top: '0',
         zIndex : '10',
         userSelect :'none',
-        padding: '30px',
+        padding: '20px',
+        paddingLeft: '30px',
         color: '#8dc4e9',
-        opacity: '0.85',
+        opacity: '0.9',
 
         '&:hover': {
             color: "#b3aae2"
@@ -23,7 +24,7 @@ const Heart = () => {
     return (
         <div>     
             <a href="#home">
-                <em class='bx bx-cloud btt' style={HeartStyles}></em>
+                <em class='bx bx-cloud btt' style={HeartStyles} title="Back to top"></em>
             </a>
         </div>
     )
