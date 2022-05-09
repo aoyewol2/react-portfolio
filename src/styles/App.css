@@ -5,15 +5,17 @@
 .top {
     top: 0; position: absolute;
 }
+
 html { 
     scroll-behavior: smooth;
     visibility: visible;
     opacity: 1;
+    font-family: var(--txt-primary);
+    background-color: var(--clr-background);
 }
 
 body {
-    font-family: var(--txt-primary); background-color: var(--clr-background);
-     margin-top: 2%; padding: 100px; zoom: 102%;
+     margin-top: 3%; padding: 100px; zoom: 100%;
      display: grid; place-items: center;
 }
 
@@ -52,7 +54,7 @@ i {
 }
 
 i:hover {
-    color: var(--btn-fill);
+    opacity: 0.6;
     cursor: pointer;
 }
 
@@ -108,7 +110,7 @@ b {
 }
 
 .contact {
-    background-color: var(--scrollbar-fill);
+    background-color: var(--navbar-fill);
     border-radius: 18px;
     justify-content: center; display: grid; align-items: center;
 
@@ -122,15 +124,16 @@ b {
 
 .navbar {
     z-index: 5; user-select: none;
-    top: 0; right: 0; padding: 28px;
+    top: 0; right: 0; padding: 22px;
     position: fixed; width: 100%;
     background-color: var(--navbar-fill); backdrop-filter: blur(32px);
+    box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.16);
     /** border-bottom: 1px solid var(--navbar-border);**/
 }
 
 .navbar a {
-    padding: 35px;
-    font-family: var(--txt-primary); font-size: 14px; color: var(--clr-primary-body);
+    padding: 0.75rem 30px;
+    font-family: var(--txt-primary); font-size: 13px; color: var(--clr-primary-body);
     transition-duration: 0.3s;
 }
 
@@ -141,7 +144,7 @@ b {
 
 .navbar span {
     margin-right: 9px;
-    font-family: var(--txt-secondary);
+    font-family: var(--txt-secondary); font-size: 13px; opacity: 0.8
 }
 
 .email {
@@ -165,7 +168,7 @@ b {
 
 .floaters i {
     margin: 10px;
-    background-color: rgba(0, 0, 0, 0.1); border-radius: 8px;
+    border-radius: 8px;
     backdrop-filter: blur(9px);
 }
 
@@ -204,7 +207,7 @@ button.intro {
     color: var(--clr-primary-body); font-family: var(--txt-secondary);
     background: #0000;
 
-    border: 2px solid var(--clr-primary-light);
+    border: 1.5px solid var(--clr-primary-light);
     border-radius: 8px;
 
     transition-duration: 0.3s; user-select: none;
@@ -317,3 +320,17 @@ li { padding: 5px; }
 .projects p { margin-top: 25px;}
 
 .container { padding: 0px 0px 100px 0px; }
+
+.aboutme {
+    display: grid;
+    grid-template-columns: 400px 500px;
+    grid-template-rows: 1fr;
+    grid-column-gap: 60px;
+    grid-row-gap: 0px;
+    justify-content: center;
+    place-items: center;
+    padding: 120px 0 50px 0;
+    }
+    
+.img { grid-area: 1 / 1 / 2 / 2; }
+.desc { grid-area: 1 / 2 / 2 / 3; }

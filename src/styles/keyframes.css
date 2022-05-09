@@ -3,10 +3,10 @@
 
 .anim-typewriter{
     animation: typewriter 2.5s steps(44) 0.25s 1 normal both,
-               blinkTextCursor 600ms steps(44) infinite normal;
+               blinkTextCursor 800ms steps(44) infinite normal;
   }
   @keyframes typewriter{
-    from{width: 0;} to{width: 8.7em;}
+    from{width: 0;} to{width: 8.8em;}
   }
   @keyframes blinkTextCursor{
     from{border-right-color: var(--clr-primary);}
@@ -24,7 +24,7 @@
   }
 
   @keyframes nav {
-    from { opacity: 0; transform: translateY(20px) }
+    from { opacity: 0; transform: translateY(-20px) }
     to   { opacity: 1;transform: translateY(0px) }
   }
 

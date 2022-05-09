@@ -6,7 +6,7 @@
         width: 1024px; margin: auto;
     }
     .navbar {
-        text-align: center;
+        text-align: right;
     }
 
 }
@@ -61,6 +61,10 @@
       }
     .bx-cloud {
         display: none;
+    }
+
+    .aboutme {
+        display: block;
     }
 
     .contact p {
