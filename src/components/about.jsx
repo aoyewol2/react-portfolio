@@ -23,11 +23,10 @@ const about =  () => {
                 </div> */}
 
                 <div className = "img">
-                    <img src="https://i.ibb.co/jzxGgwg/me2.png"
+                    <img src="https://i.ibb.co/n1MHHqL/2.png"
                     
                     style = {{
-                        width: '300px',
-                        marginTop: '-75px'
+                        width: '350px',
                         }}
 
                     alt = "Photo of Ashley">
@@ -40,7 +39,7 @@ const about =  () => {
 
                     </div>
                     <p>
-                        Hello! My name is Ashley, and I enjoy creating and designing things through code. I was first introduced to web development many years ago when I tried editing custom Tumblr themes, way back when I didn’t even realize I was coding! 
+                        Hello! My name is Ashley, and I enjoy creating and designing things through code. I was first introduced to coding many years ago when I tried editing custom Tumblr themes, way back when I didn’t even realize I was coding! 
                     </p>
 
                     <p>
@@ -48,12 +47,8 @@ const about =  () => {
                     </p>
 
                     <p>
-                    Fast forward to today, I am an organizer at Hack the 6ix, planning <a href="https://hackthe6ix.com/" target="_blank" rel="noopener noreferrer" style={Link}>Toronto's largest summer hackathon</a>. 
+                    This summer, I am a Digital Media Designer at <a href="https://itrc.uwo.ca/" target="_blank" rel="noopener noreferrer" style={Link}>Western University</a>, and I am organizing <a href="https://hackthe6ix.com/" target="_blank" rel="noopener noreferrer" style={Link}>Toronto's largest summer hackathon</a>. 
                     </p>
-
-                    {/* <p>
-                    Fast forward to today, I am currently a Digital Media Designer at <a href="https://itrc.uwo.ca/" target="_blank" rel="noopener noreferrer" style={Link}>my institution</a>, where I focus on creating interactive class material for students, and I am organizing <a href="https://hackthe6ix.com/" target="_blank" rel="noopener noreferrer" style={Link}>Toronto's largest summer hackathon</a>. 
-                    </p> */}
                 </div>
                 <br id="skills"></br>
             </div>
