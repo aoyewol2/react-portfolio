@@ -5,6 +5,7 @@ import weathercalculator from './assets/img/weather_calculator.png'
 import westernu from './assets/img/westernu.png'
 import intelliview from './assets/img/intelliview.png'
 import postwize from './assets/img/postwize.png'
+import typeconverter from './assets/img/typeconverter.png'
 
 // projects section
 const projects = () => {
@@ -17,22 +18,19 @@ const projects = () => {
   <div className="projects">
 
   <div>
+
     <div className="container reveal">
-
-      <div className='image'><img src={weathercalculator} alt="Weather calculator"></img></div>
+      <div className='image'><img src={typeconverter} alt="Western University information site"></img></div>
       <div className='text'>
-        <h3>01. Weather Calculator</h3>
-        <b>Python</b><b>Terminal based</b>
-        <p>Made with Python, Weather Calculator is a program that computes the windchill and humidex based on temperature and dewpoint data. The program returns comfort rating and exposure risk depending on the weather. Uses iteration loops and conditional statements.</p>
+        <h3>01. Type Converter</h3>
+        <b>C Language</b><b>Terminal-based</b>
+        <p>Programmed in C, Type Converter computes unit conversion based on user input. The program accepts conversions for pounds, kilograms, acres, hectares, litres, etc. Catches type mismatches and errors using functions, iteration loops and conditional statemets. </p> 
         <span>Command line program 
-
-
         <a class='external' target="_blank" rel="noopener noreferrer" alt='Live demo'
-        href="https://aoyewol2.notion.site/Console-Based-Projects-2b1d0d3fd84e441595f00db72fbd73d8">
+        href="https://github.com/aoyewol2/type-converter">
         <i class='bx bx-link-external'></i></a>
         </span> 
       </div>
-  
     </div>
 
     <div className="container reveal">
@@ -49,10 +47,28 @@ const projects = () => {
       </div>
     </div>
 
+
+    <div className="container reveal">
+
+      <div className='image'><img src={weathercalculator} alt="Weather calculator"></img></div>
+      <div className='text'>
+        <h3>03. Weather Calculator</h3>
+        <b>Python</b><b>Terminal-based</b>
+        <p>Made with Python, Weather Calculator is a program that computes the windchill and humidex based on temperature and dewpoint data. The program returns comfort rating and exposure risk depending on the weather. Uses iteration loops and conditional statements.</p>
+        <span>Command line program 
+
+
+        <a class='external' target="_blank" rel="noopener noreferrer" alt='Live demo'
+        href="https://aoyewol2.notion.site/Console-Based-Projects-2b1d0d3fd84e441595f00db72fbd73d8">
+        <i class='bx bx-link-external'></i></a>
+        </span> 
+      </div>
+    </div>
+
     <div className="container reveal">
       <div className='image'><img src={intelliview} alt="Intelliview"></img></div>
       <div className='text'>
-        <h3>03. Intelliview</h3>
+        <h3>04. Intelliview</h3>
         <b>React</b><b>HTML/CSS</b>
         <p>Intelliview is a platform that stores job applications, past interviews, and advice for students to prepare for future interviews at their dream company. SheHacks+ 6 was my first hackathon, so I had to learn new skills along the way. The hackathon exposed me to front-end dev!</p> 
         <span>🏆 2nd Overall, Best Use of Google Cloud 
@@ -66,7 +82,7 @@ const projects = () => {
     <div className="container reveal">
       <div className='image'><img src={westernu} alt="Western University information site"></img></div>
       <div className='text'>
-        <h3>04. Learn About Western University</h3>
+        <h3>05. Learn About Western University</h3>
         <b>HTML/CSS</b><b>JavaScript</b>
         <p>A web development assignment developed for CS1033 utilizing HTML, CSS and JavaScript! The site has a responsive and dynamic design which showcases Western University's campus, residences and history.</p> 
         <span>Web development project 
@@ -77,7 +93,7 @@ const projects = () => {
     </div>
   </div>
 
-  <span className='reveal github wip'>See more projects on my <a a target="_blank" rel="noopener noreferrer" href="https://github.com/aoyewol2">GitHub</a></span>
+  <span className='reveal github wip'>See more projects on my <a a target="_blank" rel="noopener noreferrer" href="https://github.com/aoyewol2">GitHub</a> :)</span>
 
 </div>
 

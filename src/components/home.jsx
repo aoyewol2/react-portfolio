@@ -69,11 +69,21 @@ const home = () => {
     <div className='flex'>
       <div className='top' id="home"></div>
         <div>
-          <img src={thatsme} alt="That's me!" title="That's me!" className="intro reveal-delay" />
+          <img src={thatsme} 
+          
+          className="intro reveal-delay"
+
+          alt = "Photo of Ashley" 
+          
+          title="That's me!"  />
         </div>
 
       <div id='bg-repeat' className='reveal-delay'>
-        <img src={glow} style={Glow}></img>
+        <img src={glow} 
+        
+        style={Glow}>
+          
+        </img>
       </div>
 
       {/* introduction section */}
