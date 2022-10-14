@@ -2,7 +2,7 @@
 @import './root.css'; @import './App.css';
 
 ::-webkit-scrollbar {
-  width: 9px; height: 9px; transition-duration: 0.2s;
+  width: 10px; height: 10px; transition-duration: 0.2s;
 }
   
 ::-webkit-scrollbar-track {
