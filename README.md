@@ -50,6 +50,9 @@
    netlify deploy
    ```
 
+## Figma Exploration
+https://www.figma.com/file/t4kSYIGuWfaNjHH3NuIEgy/v2.0?node-id=221%3A79
+
 ## Fonts used
 | Name          | Style                                                                |
 | -------------- | ------------------------------------------------------------------ |
