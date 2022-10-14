@@ -8,14 +8,13 @@ const contact = () => {
       <div>
         <img src={circles} alt="" className="backdrop-2"></img>
       </div>
-        <div id="contact" className ="contact reveal">
-            <h2>Contact</h2>
+        <div id="contact" className ="contact">
+            <h4>Thanks for stopping by!</h4>
             
-            <h3>Let's get in touch!</h3>
-            <p>I would love to chat about potential work and internship opportunities. I'm currently seeking UI/frontend engineering and design positions. Let's get the conversation started! </p>
+            <p>I'm currently seeking UI/frontend engineering and design intern positions. Let's connect!</p>
+            <p>© Ashley Oyewole 2022. All rights reserved.</p>
             <a href="mailto:aoyewol2@uwo.ca" className='email'>aoyewol2@uwo.ca</a>
-            
-            <br></br><br></br><br></br>
+       
         </div>
 
       <div className="footer">

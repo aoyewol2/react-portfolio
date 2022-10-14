@@ -66,16 +66,6 @@
     .aboutme {
         display: block;
     }
-
-    .contact p {
-        padding: 20px;
-    }
-
-    h2 {
-        display: flexbox; text-align: left;
-    }
-
-    h2.contact {text-align: center;}
     
     .tag {
         width:50%; margin: 0;text-align: left;
@@ -131,12 +121,5 @@
 
     .projects {
         transform: translateX(-115px);
-    }
-    .contact, .footer {
-        max-width: 350px;
-        transform: translateX(-40px);
-    }
-    .contact h2 {
-        text-align: center;
     }
 }

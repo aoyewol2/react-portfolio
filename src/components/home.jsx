@@ -9,40 +9,6 @@ import circles from './assets/img/circles.svg';
 // home and about me section
 const home = () => {
 
-  // social media links
-  const Github = () => {
-    window.open("https://github.com/aoyewol2");
-  };
-
-  const Linkedin = () => {
-    window.open("https://www.linkedin.com/in/aoyewol2/");
-  };
-
-  const Devpost = () => {
-    window.open("https://devpost.com/aoyewol2");
-  };
-
-  const Email = () => {
-    window.open("mailto:aoyewol2@uwo.ca");
-  };
-
-  // link styles
-
-  let linkStyles1 = {
-    animation: 'opacity 1s'
-    };
-
-  let linkStyles2 = {
-    animation: 'opacity 3s'
-    };
-
-  let linkStyles3 = {
-    animation: 'opacity 4s'
-    };
-
-  let linkStyles4 = {
-    animation: 'opacity 5s'
-    };
 
   const Tag = {
     color: '#8dc4e9',
@@ -68,46 +34,21 @@ const home = () => {
 
       </div>
 
-      {/* introduction section */}
       <div>
         <div className="slide-effect">
-          <span className="wip reveal-nav">Hi, my name is</span>
+          <br></br>
+          <span className="hi reveal-opacity">Hi there, I'm Ashley</span>
         </div>
+
+        <div className='reveal-delay'>
+          <h1>A software developer with a passion for <u>UI</u> and building <u>products</u> and systems users can interact with</h1>
+        </div>
+      </div>
+      <div className='resume reveal-opacity'>
+        <span><a href={resume}target="_blank"
+        rel="noopener noreferrer"><i>
         
-        <div>
-          <h1 className="line-1 anim-typewriter">Ashley Oyewole</h1>
-          <p className="intro reveal-text main">I am a <strong style={Tag}>Frontend Developer </strong> with a passion for UI and software design. Currently in my second year of studying Computer Science at Western University in London, Ontario. Open to Summer 2023 opportunities!</p>
-          
-          <p className="intro reveal-text">A few things I've been working on recently:</p>
-        </div>
-
-        <ul className="interests reveal-delay">
-          <li>UI development</li>
-          <li>Wireframing and protoyping</li>
-          <li>Database technologies</li>
-          <li>React.js and JavaScript</li>
-        </ul>
-
-      </div>
-
-      {/* social media section */}
-      <div className="interests reveal-delay">
-        <a onClick={Email}><button className="intro">Say hello</button></a> 
-      </div>
-
-      <div></div>
-
-      <div className="socials">
-        <a onClick={Github} alt="GitHub" className="reveal-opacity" style={linkStyles1} >GitHub</a>
-
-        <a onClick={Linkedin} className="reveal-opacity" style={linkStyles2}>LinkedIn</a>
-
-        <a onClick={Devpost} className="reveal-opacity" style={linkStyles3}>Devpost</a>
-
-        <a href={resume}
-        target="_blank"
-        rel="noopener noreferrer" className="reveal-opacity" style={linkStyles4}>Resume</a>
-
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg> Download resume</i></a></span>
       </div>
       <br id="about"></br>
     </div>

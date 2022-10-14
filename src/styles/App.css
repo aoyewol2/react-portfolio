@@ -36,13 +36,14 @@ html {
     opacity: 1;
     font-family: var(--txt-primary);
     background: rgb(34, 39, 57);
-    background: linear-gradient(45deg, rgba(34, 39, 57, 1) 0%, rgba(17, 21, 35, 1) 100%);
+    background: linear-gradient(45deg, rgba(34, 39, 57, 1) 0%, rgb(13, 17, 29) 100%);
     background-color: var(--clr-background);
    
 }
 
 body {
-     margin-top: 3%; padding: 100px; zoom: 100%;
+     margin-top: 3%; padding: 110px; zoom: 100%;
+     /* padding:0; margin: 0; */
      display: grid; place-items: center;
 }
 
@@ -52,7 +53,7 @@ h1 {
 }
 
 h2 {
-    font-family: var(--txt-primary); font-size: 38px; font-weight: bold;
+    font-family: var(--txt-primary); font-size: 44px; font-weight: bold;
     color: var(--clr-primary-body);
     background: #BFD1E2;
     background: linear-gradient(to right, #BFD1E2 0%, #84909C 100%);
@@ -67,10 +68,17 @@ h3 {
     font-family: var(--txt-secondary); font-size: 34px; font-weight: normal;
 }
 
+h4 {
+    color: var(--clr-primary-body);
+    font-family: var(--txt-secondary);
+    font-size: 34px;
+    font-weight: bold;
+}
+
 p {
     color: var(--clr-primary-body);
-    font-size: 14px;
-    min-width: 200px; max-width: 700px;
+    font-size: 15px;
+    /* min-width: 200px; max-width: 700px; */
     line-height: 2.4;
 }
 
@@ -94,6 +102,12 @@ span {
     color: var(--clr-primary-light);
     transition-duration: 0.25s;
 }
+
+.hi {
+
+    font-size: 24px;
+    font-weight: 700;
+} 
 
 strong:hover {
     text-shadow: 0 0 8px #8dc4e9;
@@ -119,6 +133,20 @@ strong:hover {
     color: var(--clr-primary-light);
 }
 
+.resume i {
+    font-style: normal;
+    color: var(--clr-primary-body);
+    opacity: 0.6;
+}
+
+u {
+    text-decoration-color:#8dc4e966;
+    text-decoration-style:dashed;
+}
+.resume i:hover {
+    opacity: 0.9;
+}
+
 a {  
     color: var(--clr-primary-light); font-size: 13px;
     text-decoration: none;
@@ -126,7 +154,7 @@ a {
 
 a:hover {
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
     color: var(--clr-primary-body);
     transition-duration: 0.3s;
 }
@@ -150,45 +178,34 @@ b {
 .btt:hover {
     color:aqua;
 }
-
-.contact {
-    background-color: #ffffff02;
-    border-radius: 18px;
-    justify-content: center; display: grid;
-    border: 0.5px solid var(--navbar-border);
-}
-
-.contact:hover {
-    border: 0.5px solid #7cafd133;
-
-}
 .contact a {
     font-size: 18px; font-family: var(--txt-secondary); color: var(--clr-primary-light);
+    text-align: left;
 }
 .contact a:hover {
     color: var(--clr-primary-body);
 }
-.contact h3 {
-    font-size: 24px;
-}
 
 .navbar {
     z-index: 5; user-select: none;
-    top: 0; right: 0; padding: 22px;
+    top: 0; right: 0; padding: 26px;
     position: fixed; width: 100%;
     background-color: var(--navbar-fill); backdrop-filter: blur(12px);
-    box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.16);
+    /* box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.16); */
     border-bottom: 0.5px solid var(--navbar-border);
 }
 
 .navbar a {
-    padding: 0.75rem 30px;
-    font-family: var(--txt-secondary); font-size: 13px; color: var(--clr-primary-body);
+    padding: 3rem 30px;
+    font-family: var(--txt-secondary); font-size: 18px; color: var(--clr-primary-light);
+    opacity: 60%;
     transition-duration: 0.3s;
+    font-weight: bold;
 }
 
 .navbar a:hover {
     text-decoration: none;
+    opacity: 40%;
     color: var(--clr-primary-light);
 }
 
@@ -239,7 +256,7 @@ img { user-select: none; border-radius: 14px; transition-duration: 0.25s;}
 
 img.intro {
     width:380px; float: right;
-    padding: 70px 70px 50px 40px;
+    padding: 60px 70px 50px 40px;
     transition-duration: 0.25s;
     backdrop-filter: blur(2px)
     
@@ -288,12 +305,21 @@ svg {
     font-family: var(--txt-secondary);
     color: var(--clr-primary-body);
 }
-.contact {
-    text-align: center;
-    backdrop-filter: blur(2px)
+
+.contact p {
+    font-size: 16px;
 }
 
-.contact h2 {font-size: 44px; margin-bottom: -1px;}
+.contact {
+    text-align: left;
+    padding: 6vh 12vh;
+    bottom: 0;
+    left: 0;
+    border-radius: 16px;
+    position:initial;
+    backdrop-filter: blur(4px);
+    background-color: #00000014;
+}
 
 .react {
     width:16px;

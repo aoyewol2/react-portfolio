@@ -12,7 +12,7 @@
     --ico-fill: #7cafd1b3; --ico-fill-2: #7cafd1cd;
     
     --scrollbar-fill: #00000000; --scrollbar-thumb: #e4e4e41a; --scrollbar-hover: #e4e4e423;
-    --navbar-fill: #00000020; --navbar-border: #7cafd113;
-    --txt-primary: 'Poppins', sans-serif;
+    --navbar-fill: #00000010; --navbar-border: #7cafd113;
+    --txt-primary: 'Space Grotesk', sans-serif;
     --txt-secondary: 'Space Mono', monospace;
 }
