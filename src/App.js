@@ -32,7 +32,7 @@ const App = () => {
     <>
       <Navbar />
       <Home />
-      <About />
+      {/* <About /> */}
       <Skills />
       <Projects />
       <Contact />
