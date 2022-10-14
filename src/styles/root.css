@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Space+Grotesk&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 @font-face {
@@ -12,7 +11,6 @@
 
 :root {
     --clr-background: #111523;
-    --clr-primary: #bfb5f0;
     --clr-primary-light: #8dc4e9;
     --clr-primary-body: #c8d7e6;
     --clr-selection: #364762cc;
