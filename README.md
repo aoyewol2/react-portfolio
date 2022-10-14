@@ -50,10 +50,15 @@
    netlify deploy
    ```
 
+## Fonts used
+| Name          | Style                                                                |
+| -------------- | ------------------------------------------------------------------ |
+| [Space Mono](https://fonts.google.com/specimen/Space+Mono)        | Mono |
+| [Poppins](https://fonts.google.com/specimen/Poppins)     | Sans serif |
+
 ## Colour palette
 
 | Colour          | Hex                                                                |
 | -------------- | ------------------------------------------------------------------ |
-| Primary        | `#b3aae2` |
-| Secondary      | `#7cafd1` |
-| Background     | `#121824` |
+| Primary        | `#8dc4e9` |
+| Background     | `#111523` |
