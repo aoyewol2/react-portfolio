@@ -1,7 +1,5 @@
 import React from 'react';
-import logo from './assets/img/logov2.png';
-import Heart from './animations/scrolltotop.jsx';
-import { hover } from '@testing-library/user-event/dist/hover';
+import Term from './animations/scrolltotop.jsx';
 
 
 let logoStyles = {
@@ -32,11 +30,7 @@ let buttonStyles = {
 const navbar = () => {
   return (
     <div className='reveal-opacity'>
-      <Heart/>
-      <div>
-      <a href = '#home'><img src={logo} style={logoStyles} className='logo reveal-opacity'></img></a>
-        
-      </div>
+      <Term/>
 
       <div className="navbar reveal-nav">
           <a href="#about"><span>01.</span>About</a>

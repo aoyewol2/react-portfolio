@@ -1,11 +1,9 @@
 import React from 'react';
-import styled from "styled-components";
 
 // page imports
 
 import Navbar from './components/navbar';
 import Floaters from './components/floaters';
-import Particles from './components/animations/particles/particles.jsx'
 
 import Home from './components/home';
 import About from './components/about';
@@ -17,7 +15,7 @@ import Contact from './components/contact';
 // component transitions
 
 import './components/animations/animation';
-import './components/animations/scrolltotop'
+import './components/animations/scrolltotop';
 
 // css file imports
 
@@ -43,4 +41,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;

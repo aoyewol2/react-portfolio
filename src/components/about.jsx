@@ -1,5 +1,7 @@
 import React from 'react';
 
+import aboutme from './assets/img/aboutme.png';
+
 const Profile = {
  width: '350px',
  borderRadius: '9px',
@@ -18,18 +20,15 @@ const about =  () => {
     return (
         <div>
             <div className = "aboutme reveal">
-                {/* <div className = "img">
-                    <img src="https://i.ibb.co/HNbxs5Q/meagain.jpg" style={Profile}></img>
-                </div> */}
 
                 <div className = "img">
-                    <img src="https://i.ibb.co/j3xyMf9/skills.png"
+                    <img src={aboutme}
                     
                     style = {{
                         width: '400px',
+                        paddingTop: '200px',
                         }}
-
-                    alt = "Photo of Ashley"
+                    alt = "Ashley Oyewole"
                     className = "intro">
                     
                     </img>
