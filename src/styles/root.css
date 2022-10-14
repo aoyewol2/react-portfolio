@@ -1,13 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-@font-face {
-    font-family: 'SF Mono';
-    src: url('./web-font-kit/sf_mono-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 :root {
     --clr-background: #111523;
@@ -22,5 +14,5 @@
     --scrollbar-fill: #00000000; --scrollbar-thumb: #e4e4e41a; --scrollbar-hover: #e4e4e423;
     --navbar-fill: #00000020; --navbar-border: #7cafd113;
     --txt-primary: 'Poppins', sans-serif;
-    --txt-secondary: 'Space Mono';
+    --txt-secondary: 'Space Mono', monospace;
 }
