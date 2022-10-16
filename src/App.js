@@ -4,9 +4,10 @@ import React from 'react';
 
 import Navbar from './components/navbar';
 import Floaters from './components/floaters';
+import Cursor from "./components/animations/cursor";
 
-import Home from './components/home';
-import About from './components/about';
+import Home from './components/home'; 
+import Experience from "./components/experience";
 import Skills from './components/skills';
 import Projects from './components/projects';
 import Contact from './components/contact';
@@ -28,17 +29,19 @@ import './styles/root.css';
 // main app
 
 const App = () => {
+
   return (
     <>
       <Navbar />
       <Home />
-      {/* <About /> */}
+      <Experience/>
       <Skills />
       <Projects />
       <Contact />
       <Floaters />
+      <Cursor />
     </>
-  )
+  );
 }
 
 export default App;
