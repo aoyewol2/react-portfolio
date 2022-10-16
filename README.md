@@ -6,11 +6,7 @@
   ashleyoyewole.dev
 </h1>
 
-<p align="center">v2.0 of my personal website built with React.js and hosted with Netlify</p>
-<p align="center">
-  <a href="https://app.netlify.com/sites/aoyewole/deploys">
-      <img src="https://api.netlify.com/api/v1/badges/55bb3e84-e7e0-4cc1-b913-045c9365d754/deploy-status" alt="Netlify Status" />
-</p>
+<p align="center">Version 2.0 of my personal website built with React.js and hosted with Netlify</p>
 <p align="center">
 <a href="https://ashleyoyewole.dev/">Launch site</a>
 </p>
@@ -58,10 +54,3 @@ https://www.figma.com/file/t4kSYIGuWfaNjHH3NuIEgy/v2.0?node-id=221%3A79
 | -------------- | ------------------------------------------------------------------ |
 | [Space Mono](https://fonts.google.com/specimen/Space+Mono)        | Mono |
 | [Poppins](https://fonts.google.com/specimen/Poppins)     | Sans serif |
-
-## Colour palette
-
-| Colour          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Primary        | `#8dc4e9` |
-| Background     | `#111523` |
