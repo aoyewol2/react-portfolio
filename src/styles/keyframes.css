@@ -1,7 +1,7 @@
-/* keyframes and animations */
+ /* keyframes and animations */
 @import './root.css'; @import './App.css';
 
-.anim-typewriter{
+.anim-typewriter { /* this was ugly so i removed */
 
     animation: typewriter 2.5s steps(44) 0.25s 1 normal both,
                blinkTextCursor 1000ms steps(44) infinite normal;
