@@ -34,7 +34,7 @@ const floaters = () => {
         </div>
         
         <div className="version">
-            <a target="_blank" rel="noopener noreferrer" href="https://aoyewol2.github.io/" title="Compare how I've improved"><span>v1.0?</span></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://aoyewol2.github.io/"><span>v1.0?</span></a>
         </div>
       
     </div>

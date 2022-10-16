@@ -2,7 +2,6 @@ import React from 'react';
 
 // image and file imports
 import weathercalculator from './assets/img/weather_calculator.png'
-//import westernu from './assets/img/westernu.png'
 import intelliview from './assets/img/intelliview.png'
 import postwize from './assets/img/postwize.png'
 import typeconverter from './assets/img/typeconverter.png'
