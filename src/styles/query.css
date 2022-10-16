@@ -48,7 +48,6 @@
     .floaters { 
        bottom: 0; right: 0; margin-left: 100%;
     }
-    p { max-width: 400px; }
 
     .projects img {
         width: 400px;
@@ -59,13 +58,8 @@
     .container {
         display: grid; text-align: left;
       }
-    .bx-cloud {
-        display: none;
-    }
 
-    .aboutme {
-        display: block;
-    }
+
     
     .tag {
         width:50%; margin: 0;text-align: left;

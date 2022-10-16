@@ -3,6 +3,7 @@
 
 ::-webkit-scrollbar {
   width: 10px; height: 10px; transition-duration: 0.2s;
+  
 }
   
 ::-webkit-scrollbar-track {
@@ -18,5 +19,6 @@
 }
 
 ::selection {
-  background: var(--clr-selection); color: white;
+  background: #edeadb; color: #362919;
+  mix-blend-mode: difference;
 }

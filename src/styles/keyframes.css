@@ -37,7 +37,16 @@
   opacity: 0;
   transition: 0.7s all ease;
 }
-.reveal.active{
+
+.reveal-2 {
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+
+  transition: 0.7s all ease;
+}
+
+.reveal.active {
   transform: translateY(0);
   opacity: 1;
 }
@@ -55,10 +64,5 @@
 .reveal-opacity {
   animation: opacity 1s;
   animation-timing-function: ease-in-out;
-}
-
-.reveal-nav {
-  animation: nav 1s;
-  transition: 0.7s all ease;
 }
 

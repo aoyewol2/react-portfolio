@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 :root {
     --clr-background: #111523;
@@ -8,7 +9,7 @@
     --clr-selection: #364762cc;
     --clr-tag: #00000010;
 
-    --btn-fill: #7cafd152;
+    --btn-fill: #7cafd10e;
     --ico-fill: #7cafd1b3; --ico-fill-2: #7cafd1cd;
     
     --scrollbar-fill: #00000000; --scrollbar-thumb: #e4e4e41a; --scrollbar-hover: #e4e4e423;
