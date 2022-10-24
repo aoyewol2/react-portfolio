@@ -8,9 +8,6 @@ const navbar = () => {
       <Term/>
 
       <div className="navbar reveal-opacity">
-          {/* <a href="#about">About</a>
-          <a href="#skills">Skills</a> */}
-          {/* <a href="#projects">Projects</a> */}
           <a href="#contact">Contact</a>
         </div>
     </div>

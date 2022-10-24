@@ -32,14 +32,14 @@ const App = () => {
 
   return (
     <>
-      <Navbar />
-      <Home />
+      <Navbar/>
+      <Home/>
       <Experience/>
-      <Skills />
-      <Projects />
-      <Contact />
-      <Floaters />
-      <Cursor />
+      <Skills/>
+      <Projects/>
+      <Contact/>
+      <Floaters/>
+      <Cursor/>
     </>
   );
 }

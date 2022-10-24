@@ -1,46 +1,13 @@
-/* media queries */
 @import './root.css'; @import './App.css';
 
-@media screen and (min-width: 1920px) {
-    body {
-        width: 1024px; margin: auto;
-    }
-    .navbar {
-        text-align: right;
-    }
-
-}
-
-@media screen and (max-width: 1920px) {
-    .navbar {
-        text-align: right;
-    }
-    body {
-        display: grid; place-items: center
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .navbar span { display: none}
-
-    .navbar {
-        text-align: center;
-    }
-    body {
-        display: grid; place-items: center
-    }
-    
-}
-
-@media screen and (max-width: 1160px) {
-    img.intro { 
-       width: 250px;
-    }
-}
-
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 1146px) {
     img.intro { 
        display: none;
+    }
+
+    .container {
+        display: block;
+        
     }
 }
 
@@ -48,72 +15,40 @@
     .floaters { 
        bottom: 0; right: 0; margin-left: 100%;
     }
-
     .projects img {
-        width: 400px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .container {
-        display: grid; text-align: left;
-      }
-
-
-    
-    .tag {
-        width:50%; margin: 0;text-align: left;
+        width: 25rem;
     }
 
-      ul.interests {
-        column-count: 1;
-      }
-
-      .skillset{
-        display: none;
-    }
-    body {
-        display: grid; place-items: center; overflow-x:hidden;
-    }
 }
 
 @media screen and (min-width: 801px) {
 
-    .flex {
-        display: flexbox
-    }
-
-    .mobile-skills {
-        display: none;
-    }
-    .container {
-        display: flex;
-      }
-
       .image {
         flex-basis: 130%
       }
-      
-      .text {
-        text-align: left;
-      }
 
       .projects img {
-        width: 450px; margin: 6% -10% 0 -30%;
+        width: 28.125rem; margin: 6% -10% 0 -30%;
     }
-
-    .container p { width: 500px; }
+    .container p {
+        width: 500px;
+    }
+    body {margin: auto;}
 }
+/* mobile responsiveness */
+@media screen and (max-width: 801px) {
 
-@media screen and (max-width: 700px) {
-     i.arrow { display: none; }
-    
-     .navbar {
-        text-align: left;
-        transform: translateX(30px);
+    body {
+        zoom: 80%;
+        margin-top: 10vh; overflow-x:visible;
+    }
+    p, span, a, b {
+        font-size: 1.125rem !important;
+    }
+    h5 {
+        font-size: 1.75rem !important;
     }
 
-    .projects {
-        transform: translateX(-115px);
-    }
+.version span, .footer span, .cursor { display: none; }
+
 }

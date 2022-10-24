@@ -12,8 +12,7 @@ const Term = () => {
         top: '0',
         zIndex : '10',
         userSelect :'none',
-        padding: '20px',
-        paddingLeft: '30px',
+        padding: '20px 0px 0px 20px',
         color: '#8dc4e9',
         opacity: '0.9',
 

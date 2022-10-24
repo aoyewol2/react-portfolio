@@ -9,6 +9,13 @@ class Experience extends React.Component {
         this.state = [
 
         // wits
+        // cs undergrad
+        {
+        name: "CS Undergrad Society",
+        description: "As a Frontend Developer, I develop and maintain the websites full interface using React.js, Tailwind and styled components.",
+        tag: "Oct 2022 - ",
+        logo: ''
+        },
         {
         name: "Women+ in Tech Society",
         description: "As a Designer, I prototype and create interactive designs for the organizations websites. I work primarily with Figma.",
@@ -18,10 +25,11 @@ class Experience extends React.Component {
         // digital media designer
         {
         name: "Western University",
-        description: "I work as a Digital Media Designer and Developer where I develop content for the universities sites. I work with Jira and Figma.",
+        description: "I work as a Digital Media Designer and Developer where I develop content for the universities websites. I work with Jira and Figma.",
         tag: "June 2022 -",
         logo: ''
         },
+
     ]
 
     return <div className='experience'>

@@ -13,14 +13,13 @@ const Home = props => {
 
     // main div
     <div className='flex'>
-      <div style={{paddingTop: '10px'}}></div>
       <div>
         <img src={circles} alt="" className="backdrop"></img>
       </div>
       <div className='top' id="home"></div>
         <div>
           <img src={thatsme} 
-          className="intro reveal-opacity"
+          className="intro reveal-opacity-2"
           alt = "Ashley Oyewole" />
         </div>
 

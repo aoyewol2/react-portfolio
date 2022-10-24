@@ -36,44 +36,45 @@ html {
     opacity: 1;
     font-family: var(--txt-primary);
     background: rgb(34, 39, 57);
-    background: linear-gradient(45deg, rgb(32, 36, 53) 0%, rgb(13, 17, 29) 100%);
+    background: linear-gradient(45deg, rgb(19, 23, 39) 0%, rgb(10, 13, 23) 100%);
     background-color: var(--clr-background);
    
 }
 
 body {
-     margin-top: 3%; padding: 110px; zoom: 100%;
-     display: grid; place-items: center;
+    padding: 8vw;
     overflow-x: hidden;
+    max-width: 87rem;
 }
 
 h1 {
-    font-family: var(--txt-secondary); font-size: 46px; font-weight: normal;
+    font-family: var(--txt-secondary); font-size: 6vh; font-weight: normal;
     color: var(--clr-primary-body);
+    transition-duration: 0.2s;
 }
 
 h2 {
-    font-family: var(--txt-primary); font-size: 44px; font-weight: bold;
+    font-family: var(--txt-primary); font-size: 2.75rem; font-weight: bold;
     color: var(--clr-primary-body);
     text-align: center;
-    padding: 100px 0px 0px 0px; letter-spacing: 1px;
+    padding: 6.25rem 0 0 0; letter-spacing: 0.125rem; transition-duration: 0.2s;
 }
 
 h3 {
-    color: var(--clr-primary-body);
+    color: var(--clr-primary-body);transition-duration: 0.2s;
     font-family: var(--txt-primary); font-size: 34px; font-weight: 500;
 }
 
 h4 {
     color: var(--clr-primary-body);
     font-family: var(--txt-secondary);
-    font-size: 34px;
-    font-weight: bold;
+    font-size: 4vh;
+    word-spacing: -5px;
+    font-weight: bold; transition-duration: 0.2s;
 }
 p {
     color: var(--clr-primary-body);
-    font-size: 15px;
-    /* min-width: 200px; max-width: 700px; */
+    font-size: 0.938rem;
     line-height: 2.4;
 }
 
@@ -100,13 +101,9 @@ span {
 
 .hi {
 
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 22px;
+    font-weight: 500;
 } 
-
-strong:hover {
-    text-shadow: 0 0 8px #8dc4e9;
-}
 
 .projects span {
     font-size: 14px;
@@ -131,15 +128,15 @@ strong:hover {
 .resume i {
     font-style: normal;
     color: var(--clr-primary-body);
-    opacity: 0.6;
+    opacity: 0.75;
 }
 
+.resume i:hover {
+    opacity: 0.9;
+}
 u {
     text-decoration-color:#8dc4e966;
     text-decoration-style:dashed;
-}
-.resume i:hover {
-    opacity: 0.9;
 }
 
 a {  
@@ -166,13 +163,6 @@ b {
     border-radius: 5px;
 }
 
-.btt {
-    color:aqua;
-}
-
-.btt:hover {
-    color:aqua;
-}
 .contact a {
     font-size: 18px; font-family: var(--txt-secondary); color: var(--clr-primary-light);
     text-align: left;
@@ -183,30 +173,18 @@ b {
 
 .navbar {
     z-index: 5; user-select: none;
-    top: 0; right: 0; padding: 26px;
+    top: 0; right: 0; padding: 18px;
     position: fixed; width: 100%;
-    background-color: var(--navbar-fill); backdrop-filter: blur(12px);
-    /* box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.16); */
+    background-color: var(--navbar-fill); backdrop-filter: blur(10px);
+    text-align: right;
     border-bottom: 0.5px solid var(--navbar-border);
 }
 
 .navbar a {
     padding: 3rem 30px;
-    font-family: var(--txt-secondary); font-size: 18px; color: var(--clr-primary-light);
-    opacity: 60%;
+    font-family: var(--txt-secondary); font-size: 16px; color: var(--clr-primary-light);
+    opacity: 90%;
     transition-duration: 0.3s;
-    font-weight: bold;
-}
-
-.navbar a:hover {
-    text-decoration: none;
-    opacity: 40%;
-    color: var(--clr-primary-light);
-}
-
-.navbar span {
-    margin-right: 9px;
-    font-family: var(--txt-secondary); font-size: 13px; opacity: 0.8
 }
 
 .email {
@@ -234,14 +212,10 @@ b {
     transform: translateY(-7px);
 }
 
-.skillset {max-width:700px; -webkit-user-drag: none;}
+.skillset {-webkit-user-drag: none; max-width: 50vw;}
 .tag, .skills {margin: 0 auto; text-align: center; max-width:700px}
 
-.tag {margin-top: -10px; color: #c8d7e69c}
-
-.socials { padding-top: 20px; }
-
-.socials a { padding-right: 20px; font-family: var(--txt-secondary) }
+.tag {margin-top: -10px; color: #90a1b5}
 
 img { user-select: none; border-radius: 14px; transition-duration: 0.25s;}
 
@@ -292,21 +266,13 @@ button.intro:hover {
 svg {
     transform: translateY(2px);
 }
-.interests {
-    font-family: var(--txt-secondary);
-    color: var(--clr-primary-body);
-}
-
-.contact p {
-    font-size: 16px;
-}
 
 .contact {
     text-align: left;
-    padding: 6vh 12vh;
+    padding: 2vw 5vw;
     bottom: 0;
     left: 0;
-    border-radius: 16px;
+    border-radius: 14px;
     position:initial;
     backdrop-filter: blur(4px);
     background-color: #00000014;
@@ -316,46 +282,21 @@ svg {
     width:16px;
 }
 
-.line-1 {
-    top: 50%;  
-    border-right: 2px solid #ffffffbf;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-ul.interests {
-    font-family: var(--txt-primary);
-    font-size: 14px;
-    column-count: 2;
-    transition-duration: 0.15s;
-    width: 500px;
-    padding: 5px 0 5px 40px;
-    list-style: none;
-}
-
-.interests li::before {content: '✦ '; font-size: 14px; color: var(--clr-primary-body); opacity: 0.9; margin-right: 12px;}
-
-li { padding: 5px; }
-
-
-.mobile-skills li{
-    color: var(--clr-primary-light); padding: 10px; border: 1px solid; margin: 15px; border-radius: 10px;
-    width: 150px; list-style: none;
-}
-
 .version {
     position: fixed;
     bottom: 0; left: 0;
     padding: 20px;
     opacity: 0.5;
 }
-.version span { font-size:13px;}
+.version span { font-size:13px;
+}
 
 .projects {
     display:grid;
     text-align: center;
-    padding: 40px 100px;
-    margin-bottom: 50px; text-decoration: none;
+    justify-content: center;
+    padding: 2.5vw 6.25vw;
+    margin-bottom: 3.125rem; text-decoration: none;
 }
 
 .projects i { transform: translateY(2px); 
@@ -363,13 +304,20 @@ li { padding: 5px; }
 }
 .external {padding-left: 6px}
 
-.projects p { margin-top: 25px;}
+.projects { margin-top: 1.563rem;}
 
-.container { padding: 0px 0px 100px 0px; }
+.container { 
+    padding: 0px 0px 6.25rem 0px;
+    display: flex;
+}
+
+.text {
+    text-align: left;
+}
 
 .cursor {
-    width: 50px;
-    height: 50px;
+    width: 15px;
+    height: 15px;
     background-color: white;
     position: absolute;
     border-radius: 50%;
@@ -378,9 +326,6 @@ li { padding: 5px; }
     z-index: 4;
     transition-duration: 0.25s;
     transition-timing-function: cubic-bezier(0.5, 0.610, 0.355, 1);
-}
-* {
-    cursor: none !important
 }
 
 /* experience */
@@ -393,8 +338,7 @@ h5 {
 
 .exp-tag {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 0; right: 0;
     border: 0;
     margin: 20px;
     background-color: #8dc4e90e;
@@ -403,11 +347,8 @@ h5 {
 
 .exp-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 32rem));
     gap: 30px;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin: auto;
     justify-content: center;
     transition-duration: 0.2s;
 }
@@ -417,10 +358,10 @@ h5 {
     padding: 20px;
     border-radius: 20px;
     border: 1px solid #8dc4e91e;
+    transition-duration: 0.2s;
 }
 
 .exp-box:hover {
-
     background-color: #47474713;
 }
 
@@ -430,4 +371,74 @@ h5 {
     border-radius: 50%;
     padding: 10px;
     display: inline-flex;
+}
+/* skills */
+.gradient {
+    display: block;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.gradient::after {
+    content: "";
+    background-image: linear-gradient(to left, #0d101d, #0d101d5d, rgba(255, 255, 255, 0),#0e121f5d, #0e121f);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+}
+
+.gradient>* {
+    z-index: 10;
+}
+.skills-container {
+    justify-content: center;
+    transition-duration: 0.2s;
+    white-space: nowrap;
+
+}
+
+.skills-box {
+    background-color: #9d9da01c;
+    padding: 15px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 1px solid #8dc4e91e;
+    transition-duration: 0.2s;
+    width: 65px;
+    display: inline;
+}
+
+.skills-box:nth-child(4) {
+    background: radial-gradient(circle, rgba(123, 137, 155, 0.76) 0%, rgba(252, 70, 106, 0) 100%);
+}
+.skills-box:nth-child(n+5) {
+    width: 45px;
+} 
+
+.skills-box:nth-child(-n+3) {
+    width: 45px;
+}
+
+.skills-box:nth-child(-n+2) {
+    width: 25px;
+}
+.skills-box:nth-child(n+5) {
+    width: 45px;
+}
+.skills-box:nth-child(n+6) {
+    width: 25px;
+}
+
+.skills-box:nth-child(n+7) {
+    width: 15px;
+}
+
+.skills-box:nth-child(-n+1) {
+    width: 15px;
+}
+.pulse {
+    animation: pulse-animation 1.75s infinite;
 }

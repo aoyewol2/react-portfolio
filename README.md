@@ -1,6 +1,3 @@
-<p align="center">
-  <img width="100" height="auto" src="src/components/assets/img/logo.png" alt="Logo" style='border-radius:7px;'/>
-</p>
 
 <h1 align="center">
   ashleyoyewole.dev

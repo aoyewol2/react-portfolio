@@ -1,19 +1,6 @@
 /* keyframes and animations */
 @import './root.css'; @import './App.css';
 
-.anim-typewriter{
-
-    animation: typewriter 2.5s steps(44) 0.25s 1 normal both,
-               blinkTextCursor 1000ms steps(44) infinite normal;
-  }
-  @keyframes typewriter{
-    from{width: 0;} to{width: 8.6em;}
-  }
-  @keyframes blinkTextCursor{
-    from{border-right-color: var(--clr-primary-body);}
-    to{border-right-color: transparent;}
-  }
-
   @keyframes fadein {
 
     from { opacity: 0; transform: translateY(50px); }
@@ -25,12 +12,16 @@
     from { opacity: 0;}
     to   { opacity: 1;}
   }
+  
+  @keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(143, 172, 216, 0.15);
+    }
 
-  @keyframes nav {
-    from { opacity: 0; transform: translateY(-20px) }
-    to   { opacity: 1;transform: translateY(0px) }
+    100% {
+      box-shadow: 0 0 0 30px rgba(255, 255, 255, 0);
+    }
   }
-
 .reveal{
   position: relative;
   transform: translateY(100px);
@@ -38,21 +29,9 @@
   transition: 0.7s all ease;
 }
 
-.reveal-2 {
-  position: relative;
-  transform: translateY(100px);
-  opacity: 0;
-
-  transition: 0.7s all ease;
-}
-
 .reveal.active {
   transform: translateY(0);
   opacity: 1;
-}
-
-.reveal-text {
-  animation: fadein 0.7s;
 }
 
 .reveal-delay {
@@ -62,7 +41,12 @@
 }
 
 .reveal-opacity {
-  animation: opacity 1s;
+  animation: opacity 0.8s;
+  animation-timing-function: ease-in-out;
+}
+
+.reveal-opacity-2 {
+  animation: opacity 2s;
   animation-timing-function: ease-in-out;
 }
 

@@ -20,8 +20,8 @@ const Cursor = props => {
         <div className="cursor"
 
         style={{
-          left:cursorX + -20 +'px',
-          top:cursorY + -15 + 'px',
+          left:cursorX + 4 + 'px',
+          top:cursorY + 4 + 'px',
         }}
 
       ></div>

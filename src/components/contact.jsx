@@ -15,12 +15,9 @@ const contact = () => {
             <p>I'm currently seeking UI/frontend engineering and design intern positions. Let's connect!</p>
             <p>© Ashley Oyewole 2022. All rights reserved.</p>
             <div className='email'>
-              {/* <button><svg style={{paddingRight: '10px'}} xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8dc4e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-copy"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg></button> */}
-              
               <a id="text" href="mailto:aoyewol2@uwo.ca">aoyewol2@uwo.ca</a>
             </div>
-            
-       
+            <div style={{paddingBottom: '5vh'}}></div>  
         </div>
 
       <div className="footer">
