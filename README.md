@@ -8,7 +8,7 @@
 <a href="https://ashleyoyewole.dev/">Launch site</a>
 </p>
 <p align="center">
-  <img width="1000" height="auto" src="src/components/assets/img/preview.png" alt="Preview" style="border-radius:8px"/>
+  <img width="1000" height="auto" src="src/assets/img/preview.png" alt="Preview" style="border-radius:8px"/>
 </p>
 
 ## Setup
@@ -45,9 +45,3 @@
 
 ## Figma Exploration
 https://www.figma.com/file/t4kSYIGuWfaNjHH3NuIEgy/v2.0?node-id=221%3A79
-
-## Fonts used
-| Name          | Style                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| [Space Mono](https://fonts.google.com/specimen/Space+Mono)        | Mono |
-| [Poppins](https://fonts.google.com/specimen/Poppins)     | Sans serif |
