@@ -1,5 +1,5 @@
 import React from 'react';
-import circles from './assets/img/circles.svg';
+import circles from '../assets/img/circles.svg';
 
 // contact section and footer
 const contact = () => {

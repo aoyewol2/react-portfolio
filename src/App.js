@@ -1,30 +1,29 @@
 import React from 'react';
 
-// page imports
+// components
 
-import Navbar from './components/navbar';
-import Floaters from './components/floaters';
-import Cursor from "./components/animations/cursor";
-
-import Home from './components/home'; 
-import Experience from "./components/experience";
-import Skills from './components/skills';
-import Projects from './components/projects';
-import Contact from './components/contact';
+import Navbar from './components/Navbar';
+import Floaters from './components/Floater';
+import Home from './components/Hero'; 
+import Experience from "./components/Experience";
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 
-// component transitions
+// transitions
 
-import './components/animations/animation';
-import './components/animations/scrolltotop';
+import './animations/Animation';
+import './animations/scrollToTop';
+import Cursor from "./animations/Cursor";
 
 // css file imports
 
 import './styles/App.css';
-import './styles/selectors.css';
-import './styles/query.css';
-import './styles/keyframes.css';
-import './styles/root.css';
+import './styles/Selectors.css';
+import './styles/Query.css';
+import './styles/Keyframes.css';
+import './styles/Root.css';
 
 // main app
 

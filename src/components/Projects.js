@@ -1,10 +1,10 @@
 import React from 'react';
 
 // image and file imports
-import weathercalculator from './assets/img/weather_calculator.png'
-import intelliview from './assets/img/intelliview.png'
-import postwize from './assets/img/postwize.png'
-import typeconverter from './assets/img/typeconverter.png'
+import weathercalculator from '../assets/img/weather_calculator.png'
+import intelliview from '../assets/img/intelliview.png'
+import postwize from '../assets/img/postwize.png'
+import typeconverter from '../assets/img/typeconverter.png'
 
 // projects section
 const projects = () => {

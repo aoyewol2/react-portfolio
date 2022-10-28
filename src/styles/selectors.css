@@ -1,5 +1,5 @@
 /* selectors */
-@import './root.css'; @import './App.css';
+@import './Root.css'; @import './App.css';
 
 ::-webkit-scrollbar {
   width: 10px; height: 10px; transition-duration: 0.2s;

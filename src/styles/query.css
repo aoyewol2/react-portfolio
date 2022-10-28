@@ -1,4 +1,4 @@
-@import './root.css'; @import './App.css';
+@import './Root.css'; @import './App.css';
 
 @media screen and (max-width: 1146px) {
     img.intro { 

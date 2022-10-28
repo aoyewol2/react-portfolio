@@ -1,5 +1,5 @@
  /* keyframes and animations */
-@import './root.css'; @import './App.css';
+@import './Root.css'; @import './App.css';
 
   @keyframes fadein {
 

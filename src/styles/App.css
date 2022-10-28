@@ -1,6 +1,6 @@
 /* main stylesheet */
 
-@import './root.css';
+@import './Root.css';
 
 .top {
     top: 0; position: absolute;

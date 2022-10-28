@@ -1,6 +1,6 @@
 import React from 'react';
 
-import work from './assets/img/work.svg';
+import work from '../assets/img/work.svg';
 
 class Experience extends React.Component {
 
@@ -8,8 +8,6 @@ class Experience extends React.Component {
 
         this.state = [
 
-        // wits
-        // cs undergrad
         {
         name: "CS Undergrad Society",
         description: "As a Frontend Developer, I develop and maintain the websites full interface using React.js, Tailwind and styled components.",

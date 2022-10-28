@@ -1,5 +1,5 @@
 import React from 'react';
-import Term from './animations/scrolltotop.jsx';
+import Term from '../animations/scrollToTop';
 
 // navbar section -- fixed on page
 const navbar = () => {

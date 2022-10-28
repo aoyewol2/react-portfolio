@@ -2,9 +2,9 @@ import React from 'react';
 
 // image and file imports
 
-import thatsme from './assets/img/thatsme.png';
-import resume from './assets/AshleyOyewole_Resume.pdf';
-import circles from './assets/img/circles.svg';
+import thatsme from '../assets/img/thatsme.png';
+import resume from '../assets/AshleyOyewole_Resume.pdf';
+import circles from '../assets/img/circles.svg';
 
 // home and about me section
 const Home = props => {

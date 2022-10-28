@@ -1,12 +1,12 @@
 import React from 'react';
 
-import figma from './assets/ico/figma.svg'
-import clang from './assets/ico/clang.svg'
-import tw from './assets/ico/tw.svg'
-import js from './assets/ico/js.svg'
-import py from './assets/ico/py.svg'
-import react from './assets/ico/react.svg'
-import sass from './assets/ico/sass.svg'
+import figma from '../assets/ico/figma.svg'
+import clang from '../assets/ico/clang.svg'
+import tw from '../assets/ico/tw.svg'
+import js from '../assets/ico/js.svg'
+import py from '../assets/ico/py.svg'
+import react from '../assets/ico/react.svg'
+import sass from '../assets/ico/sass.svg'
 
 const skills = () => {
   

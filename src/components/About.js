@@ -2,14 +2,6 @@ import React from 'react';
 
 import aboutme from './assets/img/aboutme.png';
 
-const Profile = {
- width: '350px',
- borderRadius: '9px',
- borderBottom: '29px',
- position: 'relative'
-
-}
-
 const Link = {
     fontSize: '14px',
     color: '#8dc4e9'
