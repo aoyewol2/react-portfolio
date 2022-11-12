@@ -24,7 +24,7 @@
 @media screen and (min-width: 801px) {
 
       .image {
-        flex-basis: 130%
+        flex-basis: 130%;
       }
 
       .projects img {

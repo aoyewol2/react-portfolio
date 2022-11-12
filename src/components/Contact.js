@@ -12,7 +12,7 @@ const contact = () => {
         <div id="contact" className ="contact">
             <h4>Thanks for stopping by!</h4>
             
-            <p>I'm currently seeking UI/frontend engineering and design intern positions. Let's connect!</p>
+            <p>I'm currently seeking <u className='pos'>UI/Frontend Engineering Intern</u> positions for Summer 2023. Let's connect!</p>
             <p>© Ashley Oyewole 2022. All rights reserved.</p>
             <div className='email'>
               <a id="text" href="mailto:aoyewol2@uwo.ca">aoyewol2@uwo.ca</a>

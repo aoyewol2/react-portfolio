@@ -4,7 +4,7 @@
 
 :root {
     --clr-background: #111523;
-    --clr-primary-light: #8dc4e9;
+    --clr-primary-light: #8dc0e9;
     --clr-primary-body: #c8d7e6;
     --clr-selection: #364762cc;
     --clr-tag: #00000010;
@@ -12,8 +12,8 @@
     --btn-fill: #7cafd10e;
     --ico-fill: #7cafd1b3; --ico-fill-2: #7cafd1cd;
     
-    --scrollbar-fill: #00000000; --scrollbar-thumb: #e4e4e41a; --scrollbar-hover: #e4e4e423;
-    --navbar-fill: #00000007; --navbar-border: #7cafd11d;
+    --scrollbar-fill: #00000000; --scrollbar-thumb: #2f365283; --scrollbar-hover: #e4e4e423;
+    --navbar-fill: #11111507; --navbar-border: #7cafd11d;
     --txt-primary: 'Space Grotesk', sans-serif;
     --txt-secondary: 'Space Mono', monospace;
 }

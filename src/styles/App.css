@@ -35,9 +35,8 @@ html {
     visibility: visible;
     opacity: 1;
     font-family: var(--txt-primary);
-    background: rgb(34, 39, 57);
-    background: linear-gradient(45deg, rgb(19, 23, 39) 0%, rgb(10, 13, 23) 100%);
-    background-color: var(--clr-background);
+    background-color: #0a0d17;
+    background: #0a0d17;
    
 }
 
@@ -101,7 +100,7 @@ span {
 
 .hi {
 
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
 } 
 
@@ -134,9 +133,23 @@ span {
 .resume i:hover {
     opacity: 0.9;
 }
-u {
+u.dash {
     text-decoration-color:#8dc4e966;
     text-decoration-style:dashed;
+}
+
+u.interact {
+    text-decoration-color: #ffffff00;
+    text-decoration: none;
+    font-style: italic;
+}
+
+u.pos {
+    background: #8DC4E9;
+    background: linear-gradient(to right, #8DC4E9 0%, #65a6e8 100%);
+    background-clip: text;
+    text-decoration: none;
+    -webkit-text-fill-color: transparent;
 }
 
 a {  
@@ -155,11 +168,10 @@ b {
     font-weight: normal; text-align: left;
     font-family: var(--txt-secondary); color: var(--clr-primary-light);
     user-select: none;
-    border: 1px solid #8dc4e969;
     margin: 0px 10px 0px 0px;
-    padding: 4px 12px;
+    padding: 5px 12px;
     font-size: 13px;
-    background-color: #bfd1e215;
+    background-color: #82b0dc15;
     border-radius: 5px;
 }
 
@@ -220,20 +232,19 @@ b {
 img { user-select: none; border-radius: 14px; transition-duration: 0.25s;}
 
 img.intro {
-    width:380px; float: right;
+    width:330px; float: right;
     padding: 60px 70px 50px 40px;
     transition-duration: 0.25s;
-    backdrop-filter: blur(2px)
+    backdrop-filter: blur(2px);
     
 }
 
-img.intro:hover{
-    transform: translateY(-12px);
+.container img {
+    filter: grayscale(20%);
 }
 
 .container img:hover {
     filter:grayscale(50%);
-    transform: translateY(-14px);
     box-shadow: 10px 10px 50px #0000003f;
    
 }
@@ -354,15 +365,16 @@ h5 {
 }
 .exp-box {
     position: relative;
-    background-color: #0000000e;
+    background-color: #44418508;
     padding: 20px;
     border-radius: 20px;
-    border: 1px solid #8dc4e91e;
+    border: 1px solid #8dc4e913;
     transition-duration: 0.2s;
 }
 
 .exp-box:hover {
-    background-color: #47474713;
+    border: 1px solid #8db0e922;
+    box-shadow: 10px 10px 50px #0000003f;
 }
 
 .exp-image {
@@ -381,12 +393,9 @@ h5 {
 
 .gradient::after {
     content: "";
-    background-image: linear-gradient(to left, #0d101d, #0d101d5d, rgba(255, 255, 255, 0),#0e121f5d, #0e121f);
+    background-image: linear-gradient(to left, #0a0d17, #0a0d1759, rgba(255, 255, 255, 0),#0a0d1759, #0a0d17);
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    top: 0; left: 0; right: 0; bottom: 0;
     z-index: 20;
 }
 

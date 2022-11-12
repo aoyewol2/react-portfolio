@@ -29,12 +29,12 @@ const Home = props => {
 
       <div>
         <div>
-          <br></br>
-          <span className="hi reveal-opacity">Hi there, I'm Ashley</span>
+          <br></br><br></br>
+          <span className="hi reveal-opacity"><u className='pos'>Hi there, I'm Ashley</u></span>
         </div>
 
         <div className='reveal-opacity'>
-          <h1>A software developer with a passion for <u>UI</u> and building <u>products</u> and systems users can interact with</h1>
+          <h1>A software developer with a passion for <u className='dash'>UI</u> and building <u className='dash'>products</u> and systems users can <u className="interact">interact</u> with</h1>
         </div>
       </div>
       <div className='resume reveal-opacity'>
