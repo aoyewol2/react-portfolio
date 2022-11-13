@@ -1,8 +1,7 @@
-import React from 'react';
-import Term from '../animations/scrollToTop';
+import Term from '../components/Home';
 
 // navbar section -- fixed on page
-const navbar = () => {
+export default function NavBar() {
   return (
     <div className='reveal-opacity'>
       <Term/>
@@ -13,5 +12,3 @@ const navbar = () => {
     </div>
   )
 }
-
-export default navbar

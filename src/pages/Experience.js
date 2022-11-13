@@ -1,5 +1,4 @@
 import React from 'react';
-
 import work from '../assets/img/work.svg';
 
 class Experience extends React.Component {
@@ -34,7 +33,7 @@ class Experience extends React.Component {
 
         <div style={{paddingBottom: '30px'}}></div>
         <h2 className='reveal'>Where I Work</h2>
-        <p className='tag reveal'>What I'm busy doing outside of being a student.</p>
+        <p className='tag reveal'>What I'm busy doing outside of being a student</p>
 
         <div style={{paddingBottom: '70px'}}></div>
         <div className='exp-container'>

@@ -1,8 +1,7 @@
-import React from 'react';
 import circles from '../assets/img/circles.svg';
 
 // contact section and footer
-const contact = () => {
+export default function Contact() {
 
   return (
     <div style={{position: 'relative'}}>
@@ -40,5 +39,3 @@ const contact = () => {
     </div>
   );
 }
-
-export default contact

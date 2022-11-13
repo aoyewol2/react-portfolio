@@ -1,8 +1,5 @@
-// scroll to top button
 
-import React from 'react';
-
-const Term = () => {
+export default function Home() {
     
     // styles
     const TermStyles = {
@@ -26,5 +23,3 @@ const Term = () => {
         </div>
     )
 }
-
-export default Term;

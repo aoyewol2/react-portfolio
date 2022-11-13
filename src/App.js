@@ -2,20 +2,20 @@ import React from 'react';
 
 // components
 
-import Navbar from './components/Navbar';
+import Navbar from './pages/Navbar';
 import Floaters from './components/Floater';
-import Home from './components/Hero'; 
-import Experience from "./components/Experience";
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
+import Home from "./pages/Hero"; 
+import Experience from "./pages/Experience";
+import Skills from "./pages/Skills";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
 
 // transitions
 
-import './animations/Animation';
-import './animations/scrollToTop';
-import Cursor from "./animations/Cursor";
+import './components/Animation';
+import "./components/Home";
+import Cursor from "./components/Cursor";
 
 // css file imports
 
@@ -27,7 +27,7 @@ import './styles/Root.css';
 
 // main app
 
-const App = () => {
+export default function App() {
 
   return (
     <>
@@ -42,5 +42,3 @@ const App = () => {
     </>
   );
 }
-
-export default App;

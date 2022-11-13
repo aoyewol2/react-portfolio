@@ -7,7 +7,6 @@
 
     .container {
         display: block;
-        
     }
 }
 
@@ -18,17 +17,16 @@
     .projects img {
         width: 25rem;
     }
-
 }
 
 @media screen and (min-width: 801px) {
 
-      .image {
-        flex-basis: 130%;
-      }
+    .image {
+    flex-basis: 130%;
+    }
 
-      .projects img {
-        width: 28.125rem; margin: 6% -10% 0 -30%;
+    .projects img {
+    width: 28.125rem; margin: 6% -10% 0 -30%;
     }
     .container p {
         width: 500px;
@@ -50,5 +48,4 @@
     }
 
 .version span, .footer span, .cursor { display: none; }
-
 }

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import figma from '../assets/ico/figma.svg'
 import clang from '../assets/ico/clang.svg'
 import tw from '../assets/ico/tw.svg'
@@ -8,7 +6,7 @@ import py from '../assets/ico/py.svg'
 import react from '../assets/ico/react.svg'
 import sass from '../assets/ico/sass.svg'
 
-const skills = () => {
+export default function Skills() {
   
   return (
     <div className="skills">
@@ -36,5 +34,3 @@ const skills = () => {
     </div>
   )
 }
-
-export default skills

@@ -1,6 +1,5 @@
-import React from 'react';
 
-const floaters = () => {
+export default function Floater() {
 
   // social media links
   const Github = () => {
@@ -33,5 +32,3 @@ const floaters = () => {
     </div>
   );
 }
-
-export default floaters
