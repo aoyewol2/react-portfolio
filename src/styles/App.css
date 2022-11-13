@@ -35,9 +35,12 @@ html {
     font-family: var(--txt-primary);
     background-color: #0a0d17;
     background: #0a0d17;
+}
+
+body {
     padding: 8vw;
     overflow-x: hidden;
-    max-width: 87rem;
+    max-width: 90rem;
 }
 
 h1 {
@@ -221,7 +224,7 @@ b {
 
 .tag {margin-top: -10px; color: #90a1b5}
 
-img { user-select: none; border-radius: 14px; transition-duration: 0.25s;}
+img { -webkit-user-drag: none; user-select: none; border-radius: 14px; transition-duration: 0.25s;}
 
 img.intro {
     width:330px; float: right;
@@ -230,6 +233,9 @@ img.intro {
     backdrop-filter: blur(2px);
 }
 
+.projects img {
+    margin: 6% -10% 0 -30%;
+}
 .container img {
     filter: grayscale(20%);
 }

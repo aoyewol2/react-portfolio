@@ -1,4 +1,4 @@
-import styles from "../styles/NotFound.module.css";
+import styles from "../styles/modules/NotFound.module.css";
 
 export default function Icons() {
   const Github = () => {

@@ -1,12 +1,14 @@
 @import './Root.css'; @import './App.css';
 
-@media screen and (max-width: 1146px) {
+@media screen and (max-width: 1190px) {
     img.intro { 
        display: none;
     }
-
     .container {
         display: block;
+    }
+    .projects img {
+        margin: 0%;
     }
 }
 
@@ -24,9 +26,8 @@
     .image {
     flex-basis: 130%;
     }
-
     .projects img {
-    width: 28.125rem; margin: 6% -10% 0 -30%;
+    width: 28.125rem;
     }
     .container p {
         width: 500px;

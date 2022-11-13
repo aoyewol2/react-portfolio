@@ -1,8 +1,9 @@
+import styles from "../styles/modules/Projects.module.css"
+
 import starship from '../assets/img/starship.png'
 import intelliview from '../assets/img/intelliview.png'
 import postwize from '../assets/img/postwize.png'
 import typeconverter from '../assets/img/typeconverter.png'
-
 import GitHub from '../components/GitHub'
 import GitHub2 from '../components/GitHub2'
 import External from '../components/External'
@@ -38,15 +39,16 @@ export default function Projects() {
                 and errors using functions, iteration loops and conditional
                 statements.{" "}
               </p>
-              <span>
+              <span className={styles.span}>
                 ✨ Command line program
                 <a
                   class="external"
                   target="_blank"
                   rel="noopener noreferrer"
                   alt="Live demo"
-                  href="https://github.com/aoyewol2/type-converter">
-                  <GitHub/>
+                  href="https://github.com/aoyewol2/type-converter"
+                >
+                  <GitHub />
                 </a>
               </span>
             </div>
@@ -65,23 +67,27 @@ export default function Projects() {
               <p>
                 PostWize is designed to streamline the job application process
                 by storing all your career resources in one site! Users can see
-                their pending applications, chat and schedule meetings with recruiters, and track important dates with a personalized calendar.
+                their pending applications, chat and schedule meetings with
+                recruiters, and track important dates with a personalized
+                calendar.
               </p>
 
-              <span>
+              <span className={styles.span}>
                 🏆 Best Web Development Track
                 <a
                   class="external"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://github.com/aoyewol2/PostWize">
-                <GitHub/>
+                  href="https://github.com/aoyewol2/PostWize"
+                >
+                  <GitHub />
                 </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://devpost.com/software/postwize">
-                  <External/>
+                  href="https://devpost.com/software/postwize"
+                >
+                  <External />
                 </a>
               </span>
             </div>
@@ -97,24 +103,27 @@ export default function Projects() {
               <b>HTML/CSS</b>
               <p>
                 Intelliview is a platform that stores job applications, past
-                interviews, and advice for students to prepare for
-                interviews at their dream company. This hackathon project exposed me to frontend development!
+                interviews, and advice for students to prepare for interviews at
+                their dream company. This hackathon project exposed me to
+                frontend development!
               </p>
 
-              <span>
+              <span className={styles.span}>
                 🏆 2nd place overall
                 <a
                   class="external"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://github.com/rahmagillan/shehacks">
-                <GitHub/>
+                  href="https://github.com/rahmagillan/shehacks"
+                >
+                  <GitHub />
                 </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://devpost.com/software/intelliview">
-                  <External/>
+                  href="https://devpost.com/software/intelliview"
+                >
+                  <External />
                 </a>
               </span>
             </div>
@@ -146,10 +155,11 @@ export default function Projects() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/aoyewol2">
+            href="https://github.com/aoyewol2"
+          >
             GitHub
           </a>{" "}
-          <GitHub2/>
+          <GitHub2 />
         </span>
       </div>
     </div>

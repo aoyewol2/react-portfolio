@@ -1,3 +1,15 @@
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-8px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
 .notfound {
     position: absolute;
     left: 50%;
@@ -23,5 +35,5 @@
 .image {
     width: 60px;
     margin-bottom: -10px;
-    -webkit-user-drag: none;
+    animation: float 4s ease-in-out infinite;
 }
