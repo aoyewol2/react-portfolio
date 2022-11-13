@@ -28,8 +28,17 @@ export default function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={ <Layout /> }></Route>
-          <Route path="*" element={ <NotFound /> }></Route>
+
+          <Route
+            path="/"
+            element={ <Layout /> }>
+          </Route>
+
+          <Route
+            path="*"
+            element={ <NotFound /> }>
+          </Route>
+
         </Routes>
       </Router>
     </>
@@ -39,14 +48,14 @@ export default function App() {
 export function Layout() {
   return (
     <>
-      <Navbar />
-      <Home />
-      <Experience />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Floaters />
-      <Cursor />
+      <Navbar/>
+      <Home/>
+      <Experience/>
+      <Skills/>
+      <Projects/>
+      <Contact/>
+      <Floaters/>
+      <Cursor/>
     </>
   );
 };
