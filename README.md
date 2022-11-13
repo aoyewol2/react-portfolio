@@ -8,7 +8,7 @@
 <a href="https://ashleyoyewole.dev/">Launch site</a>
 </p>
 <p align="center">
-  <img width="1000" height="auto" src="src/assets/img/preview.png" alt="Preview" style="border-radius:8px"/>
+  <img width="1000" height="auto" src="src/assets/img/Frame.png" alt="Preview" style="border-radius:8px"/>
 </p>
 
 ## Setup
