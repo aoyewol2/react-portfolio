@@ -1,5 +1,5 @@
-import circles from '../assets/img/circles.svg';
 import ReactLogo from '../components/ReactLogo';
+import CirclesSlim from "../assets/img/circles_slim.png";
 
 // contact section and footer
 export default function Contact() {
@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <div style={{position: 'relative'}}>
       <div>
-        <img src={circles} alt="" className="backdrop-2"></img>
+        <img src={CirclesSlim} alt="" className="backdrop"></img>
       </div>
         <div id="contact" className ="contact">
             <h4>Thanks for stopping by!</h4>

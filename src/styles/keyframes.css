@@ -12,12 +12,23 @@
     from { opacity: 0;}
     to   { opacity: 1;}
   }
+
+  @keyframes opacity-backdrop {
+
+    from { opacity: 0; filter: blur(20px);}
+    to   { opacity: 0.35; filter: blur(0px);}
+  }
+
+  @keyframes opacity-blur {
+
+    from { opacity: 0; filter: blur(4px); transform: scale(1.040);}
+    to   { opacity: 1; filter: blur(0px);}
+  }
   
   @keyframes pulse-animation {
     0% {
-      box-shadow: 0 0 0 0px rgba(143, 172, 216, 0.15);
+      box-shadow: 0 0 0 0px rgba(143, 172, 216, 0.10);
     }
-
     100% {
       box-shadow: 0 0 0 30px rgba(255, 255, 255, 0);
     }
@@ -44,9 +55,11 @@
   animation: opacity 0.8s;
   animation-timing-function: ease-in-out;
 }
-
-.reveal-opacity-2 {
-  animation: opacity 2s;
+.reveal-blur {
+  animation: opacity-blur 1.2s;
   animation-timing-function: ease-in-out;
 }
-
+.reveal-opacity-backdrop {
+  animation: opacity-backdrop 0.8s;
+  animation-timing-function: ease-in-out;
+}
