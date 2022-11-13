@@ -42,3 +42,5 @@ export default function Home() {
     </div>
   )
 }
+
+console.log("🐰 You found an easter egg!");

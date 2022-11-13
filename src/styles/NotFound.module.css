@@ -1,0 +1,27 @@
+.notfound {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.link {
+    font-size: 0.938rem;
+}
+
+.button {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 12px;
+    background-color: rgba(28, 47, 63, 0.096);
+}
+.icons {
+    padding: 20px;
+}
+
+.image {
+    width: 60px;
+    margin-bottom: -10px;
+    -webkit-user-drag: none;
+}
