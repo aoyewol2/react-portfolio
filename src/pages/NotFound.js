@@ -1,4 +1,5 @@
 import styles from "../styles/NotFound.module.css"
+
 import BackHome from "../components/BackHome";
 import Icons from "../components/Icons";
 import Ghost from "../assets/img/ghost.svg"
