@@ -4,6 +4,7 @@
 </h1>
 
 <p align="center">Version 2.0 of my personal website built with React.js and hosted with Netlify</p>
+<p align="center">(In the process of migrating to Next.js)</p>
 <p align="center">
 <a href="https://ashleyoyewole.dev/">Launch site</a>
 </p>
