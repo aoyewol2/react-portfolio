@@ -4,9 +4,9 @@
 </h1>
 
 <p align="center">Version 2.0 of my personal website built with React.js and hosted with Netlify</p>
-<p align="center">(In the process of migrating to Next.js)</p>
+<p align="center">(Migrated to Next.js)</p>
 <p align="center">
-<a href="https://ashleyoyewole.dev/">Launch site</a>
+<a href="https://ashleyoyewole.me/">Launch new site</a>
 </p>
 <p align="center">
   <img width="1000" height="auto" src="src/assets/img/Frame.png" alt="Preview" style="border-radius:8px"/>
